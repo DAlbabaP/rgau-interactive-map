@@ -1,0 +1,462 @@
+{
+  "type": "FeatureCollection",
+  "name": "metro_stations",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r6999587",
+        "osm_id": "6999587",
+        "osm_type": "relation",
+        "osm_version": "4",
+        "osm_timestamp": "2024-01-29T13:17:19Z",
+        "osm_uid": "18826385",
+        "osm_user": "MarinaKuzko",
+        "osm_changeset": "146821659",
+        "building": "metro",
+        "building:levels": "1",
+        "name": null,
+        "title": null,
+        "type": "metro_station",
+        "station_code": null,
+        "line": null,
+        "line_color": null,
+        "line_number": null,
+        "description": null,
+        "station_type": null,
+        "depth_meters": null,
+        "year_opened": null,
+        "architect": null,
+        "platforms": null,
+        "platform_type": null,
+        "platform_length": null,
+        "tracks": null,
+        "exits": null,
+        "transfers": [],
+        "next_stations": {},
+        "facilities": [],
+        "accessibility": {},
+        "commercial_areas": [],
+        "has_wifi": false,
+        "has_mobile_coverage": false,
+        "has_cctv": false,
+        "has_emergency_communication": false,
+        "working_hours": null,
+        "first_train_time": null,
+        "last_train_time": null,
+        "peak_interval": null,
+        "off_peak_interval": null,
+        "passenger_flow_daily": null,
+        "rush_hour_load": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5757468,
+                55.8367024
+              ],
+              [
+                37.575798,
+                55.8366926
+              ],
+              [
+                37.5758191,
+                55.8366886
+              ],
+              [
+                37.576222,
+                55.836612
+              ],
+              [
+                37.5762846,
+                55.8366001
+              ],
+              [
+                37.5762558,
+                55.8365524
+              ],
+              [
+                37.5760853,
+                55.8362695
+              ],
+              [
+                37.5757293,
+                55.8363371
+              ],
+              [
+                37.5756304,
+                55.8363045
+              ],
+              [
+                37.57553,
+                55.8363236
+              ],
+              [
+                37.5755028,
+                55.8363802
+              ],
+              [
+                37.5751776,
+                55.836442
+              ],
+              [
+                37.5752237,
+                55.8365185
+              ],
+              [
+                37.5753186,
+                55.836676
+              ],
+              [
+                37.5753769,
+                55.8367727
+              ],
+              [
+                37.5757468,
+                55.8367024
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w448542421",
+        "osm_id": "448542421",
+        "osm_type": "way",
+        "osm_version": "5",
+        "osm_timestamp": "2023-12-04T08:54:09",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "144745891",
+        "building": "metro",
+        "building:levels": "1",
+        "name": null,
+        "title": null,
+        "type": "metro_station",
+        "station_code": null,
+        "line": null,
+        "line_color": null,
+        "line_number": null,
+        "description": null,
+        "station_type": null,
+        "depth_meters": null,
+        "year_opened": null,
+        "architect": null,
+        "platforms": null,
+        "platform_type": null,
+        "platform_length": null,
+        "tracks": null,
+        "exits": null,
+        "transfers": [],
+        "next_stations": {},
+        "facilities": [],
+        "accessibility": {},
+        "commercial_areas": [],
+        "has_wifi": false,
+        "has_mobile_coverage": false,
+        "has_cctv": false,
+        "has_emergency_communication": false,
+        "working_hours": null,
+        "first_train_time": null,
+        "last_train_time": null,
+        "peak_interval": null,
+        "off_peak_interval": null,
+        "passenger_flow_daily": null,
+        "rush_hour_load": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5725032,
+                55.8334408
+              ],
+              [
+                37.5725986,
+                55.8334434
+              ],
+              [
+                37.5726168,
+                55.8332482
+              ],
+              [
+                37.5725693,
+                55.8332468
+              ],
+              [
+                37.5725218,
+                55.8332454
+              ],
+              [
+                37.5725032,
+                55.8334408
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w448542422",
+        "osm_id": "448542422",
+        "osm_type": "way",
+        "osm_version": "7",
+        "osm_timestamp": "2023-12-04T08:54:09",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "144745891",
+        "building": "metro",
+        "building:levels": "1",
+        "name": null,
+        "title": null,
+        "type": "metro_station",
+        "station_code": null,
+        "line": null,
+        "line_color": null,
+        "line_number": null,
+        "description": null,
+        "station_type": null,
+        "depth_meters": null,
+        "year_opened": null,
+        "architect": null,
+        "platforms": null,
+        "platform_type": null,
+        "platform_length": null,
+        "tracks": null,
+        "exits": null,
+        "transfers": [],
+        "next_stations": {},
+        "facilities": [],
+        "accessibility": {},
+        "commercial_areas": [],
+        "has_wifi": false,
+        "has_mobile_coverage": false,
+        "has_cctv": false,
+        "has_emergency_communication": false,
+        "working_hours": null,
+        "first_train_time": null,
+        "last_train_time": null,
+        "peak_interval": null,
+        "off_peak_interval": null,
+        "passenger_flow_daily": null,
+        "rush_hour_load": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5734139,
+                55.8334472
+              ],
+              [
+                37.5734319,
+                55.8332545
+              ],
+              [
+                37.5733833,
+                55.8332518
+              ],
+              [
+                37.5733369,
+                55.8332517
+              ],
+              [
+                37.5733189,
+                55.8334446
+              ],
+              [
+                37.5734139,
+                55.8334472
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w605601033",
+        "osm_id": "605601033",
+        "osm_type": "way",
+        "osm_version": "3",
+        "osm_timestamp": "2023-12-04T08:54:09",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "144745891",
+        "building": "metro",
+        "building:levels": "1",
+        "name": null,
+        "title": null,
+        "type": "metro_station",
+        "station_code": null,
+        "line": null,
+        "line_color": null,
+        "line_number": null,
+        "description": null,
+        "station_type": null,
+        "depth_meters": null,
+        "year_opened": null,
+        "architect": null,
+        "platforms": null,
+        "platform_type": null,
+        "platform_length": null,
+        "tracks": null,
+        "exits": null,
+        "transfers": [],
+        "next_stations": {},
+        "facilities": [],
+        "accessibility": {},
+        "commercial_areas": [],
+        "has_wifi": false,
+        "has_mobile_coverage": false,
+        "has_cctv": false,
+        "has_emergency_communication": false,
+        "working_hours": null,
+        "first_train_time": null,
+        "last_train_time": null,
+        "peak_interval": null,
+        "off_peak_interval": null,
+        "passenger_flow_daily": null,
+        "rush_hour_load": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.572496,
+                55.8335244
+              ],
+              [
+                37.5724784,
+                55.83371
+              ],
+              [
+                37.5725259,
+                55.8337114
+              ],
+              [
+                37.5725734,
+                55.8337128
+              ],
+              [
+                37.5725907,
+                55.833527
+              ],
+              [
+                37.572496,
+                55.8335244
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w719383908",
+        "osm_id": "719383908",
+        "osm_type": "way",
+        "osm_version": "3",
+        "osm_timestamp": "2023-12-04T08:54:09",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "144745891",
+        "building": "metro",
+        "building:levels": "1",
+        "name": null,
+        "title": null,
+        "type": "metro_station",
+        "station_code": null,
+        "line": null,
+        "line_color": null,
+        "line_number": null,
+        "description": null,
+        "station_type": null,
+        "depth_meters": null,
+        "year_opened": null,
+        "architect": null,
+        "platforms": null,
+        "platform_type": null,
+        "platform_length": null,
+        "tracks": null,
+        "exits": null,
+        "transfers": [],
+        "next_stations": {},
+        "facilities": [],
+        "accessibility": {},
+        "commercial_areas": [],
+        "has_wifi": false,
+        "has_mobile_coverage": false,
+        "has_cctv": false,
+        "has_emergency_communication": false,
+        "working_hours": null,
+        "first_train_time": null,
+        "last_train_time": null,
+        "peak_interval": null,
+        "off_peak_interval": null,
+        "passenger_flow_daily": null,
+        "rush_hour_load": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5733111,
+                55.8335283
+              ],
+              [
+                37.5732935,
+                55.8337162
+              ],
+              [
+                37.5733457,
+                55.8337176
+              ],
+              [
+                37.5733885,
+                55.833719
+              ],
+              [
+                37.5734061,
+                55.8335308
+              ],
+              [
+                37.5733111,
+                55.8335283
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

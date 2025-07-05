@@ -1,0 +1,4373 @@
+{
+  "type": "FeatureCollection",
+  "name": "university_buildings",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r56340",
+        "osm_id": "56340",
+        "osm_type": "relation",
+        "osm_version": "10",
+        "osm_timestamp": "2023-08-25T13:43:31Z",
+        "osm_uid": "11978982",
+        "osm_user": "mappinglander",
+        "osm_changeset": "140373675",
+        "building": "university",
+        "building:levels": "3",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5495981,
+                55.8356021
+              ],
+              [
+                37.5496284,
+                55.8355629
+              ],
+              [
+                37.5496343,
+                55.835545
+              ],
+              [
+                37.5496258,
+                55.8355275
+              ],
+              [
+                37.5496047,
+                55.8355138
+              ],
+              [
+                37.5495908,
+                55.8355104
+              ],
+              [
+                37.549575,
+                55.8355066
+              ],
+              [
+                37.5495428,
+                55.8355074
+              ],
+              [
+                37.5495143,
+                55.8355159
+              ],
+              [
+                37.5494952,
+                55.8355305
+              ],
+              [
+                37.5494649,
+                55.8355698
+              ],
+              [
+                37.5494282,
+                55.8355617
+              ],
+              [
+                37.5490575,
+                55.8354708
+              ],
+              [
+                37.5489339,
+                55.8356311
+              ],
+              [
+                37.5483677,
+                55.8363665
+              ],
+              [
+                37.5481718,
+                55.836621
+              ],
+              [
+                37.5483868,
+                55.8366732
+              ],
+              [
+                37.5489556,
+                55.8359346
+              ],
+              [
+                37.5494716,
+                55.8360599
+              ],
+              [
+                37.5493458,
+                55.8362232
+              ],
+              [
+                37.549563,
+                55.8362759
+              ],
+              [
+                37.5500056,
+                55.8357011
+              ],
+              [
+                37.5495981,
+                55.8356021
+              ]
+            ],
+            [
+              [
+                37.5491713,
+                55.8356876
+              ],
+              [
+                37.5491928,
+                55.8356597
+              ],
+              [
+                37.5493416,
+                55.8356958
+              ],
+              [
+                37.549288,
+                55.8357654
+              ],
+              [
+                37.5494606,
+                55.8358073
+              ],
+              [
+                37.5495142,
+                55.8357377
+              ],
+              [
+                37.5496752,
+                55.8357768
+              ],
+              [
+                37.5495723,
+                55.8359104
+              ],
+              [
+                37.54909,
+                55.8357932
+              ],
+              [
+                37.5491713,
+                55.8356876
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r1563335",
+        "osm_id": "1563335",
+        "osm_type": "relation",
+        "osm_version": "43",
+        "osm_timestamp": "2023-09-17T00:03:31Z",
+        "osm_uid": "461130",
+        "osm_user": "Fizzie-DWG",
+        "osm_changeset": "141362331",
+        "building": "university",
+        "building:levels": "2",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5512615,
+                55.8323052
+              ],
+              [
+                37.5521903,
+                55.8325174
+              ],
+              [
+                37.5523904,
+                55.832241
+              ],
+              [
+                37.5525873,
+                55.8319692
+              ],
+              [
+                37.5519954,
+                55.8318339
+              ],
+              [
+                37.5516586,
+                55.831757
+              ],
+              [
+                37.5512615,
+                55.8323052
+              ]
+            ],
+            [
+              [
+                37.5517288,
+                55.8319107
+              ],
+              [
+                37.552328,
+                55.8320415
+              ],
+              [
+                37.5522161,
+                55.832203
+              ],
+              [
+                37.5520956,
+                55.8323771
+              ],
+              [
+                37.5514964,
+                55.8322462
+              ],
+              [
+                37.5517288,
+                55.8319107
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r1813335",
+        "osm_id": "1813335",
+        "osm_type": "relation",
+        "osm_version": "23",
+        "osm_timestamp": "2023-09-16T23:04:43Z",
+        "osm_uid": "8726248",
+        "osm_user": "traveleditor",
+        "osm_changeset": "141361414",
+        "building": "university",
+        "building:levels": null,
+        "mulipoligon_id": 3,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5479418,
+                55.8343902
+              ],
+              [
+                37.5481704,
+                55.834433
+              ],
+              [
+                37.5485972,
+                55.8345225
+              ],
+              [
+                37.5486963,
+                55.834366
+              ],
+              [
+                37.5470337,
+                55.8340366
+              ],
+              [
+                37.5469366,
+                55.8341911
+              ],
+              [
+                37.5474489,
+                55.8342926
+              ],
+              [
+                37.5475342,
+                55.8343095
+              ],
+              [
+                37.5479418,
+                55.8343902
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r1897390",
+        "osm_id": "1897390",
+        "osm_type": "relation",
+        "osm_version": "42",
+        "osm_timestamp": "2023-09-17T00:03:31Z",
+        "osm_uid": "461130",
+        "osm_user": "Fizzie-DWG",
+        "osm_changeset": "141362331",
+        "building": "university",
+        "building:levels": "2",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5509638,
+                55.8326206
+              ],
+              [
+                37.5509104,
+                55.8326099
+              ],
+              [
+                37.5508768,
+                55.8325999
+              ],
+              [
+                37.5508038,
+                55.8326965
+              ],
+              [
+                37.5508408,
+                55.8327066
+              ],
+              [
+                37.5508834,
+                55.8327152
+              ],
+              [
+                37.5511598,
+                55.8327873
+              ],
+              [
+                37.551386,
+                55.8328459
+              ],
+              [
+                37.5515672,
+                55.8330751
+              ],
+              [
+                37.5515879,
+                55.8331039
+              ],
+              [
+                37.5518231,
+                55.8331089
+              ],
+              [
+                37.5515475,
+                55.8327727
+              ],
+              [
+                37.5515853,
+                55.8327225
+              ],
+              [
+                37.5517112,
+                55.8327498
+              ],
+              [
+                37.5519099,
+                55.8324614
+              ],
+              [
+                37.5517915,
+                55.8324379
+              ],
+              [
+                37.5517738,
+                55.8324669
+              ],
+              [
+                37.5516991,
+                55.8324525
+              ],
+              [
+                37.5517168,
+                55.8324235
+              ],
+              [
+                37.5516075,
+                55.8324018
+              ],
+              [
+                37.5514125,
+                55.8326849
+              ],
+              [
+                37.5515087,
+                55.8327058
+              ],
+              [
+                37.551477,
+                55.8327478
+              ],
+              [
+                37.5509638,
+                55.8326206
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r1897391",
+        "osm_id": "1897391",
+        "osm_type": "relation",
+        "osm_version": "40",
+        "osm_timestamp": "2023-09-17T00:03:31Z",
+        "osm_uid": "461130",
+        "osm_user": "Fizzie-DWG",
+        "osm_changeset": "141362331",
+        "building": "university",
+        "building:levels": "2",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5503096,
+                55.8334879
+              ],
+              [
+                37.5502315,
+                55.833584
+              ],
+              [
+                37.5502222,
+                55.833592
+              ],
+              [
+                37.5504757,
+                55.8336452
+              ],
+              [
+                37.5504575,
+                55.8336733
+              ],
+              [
+                37.5505211,
+                55.8336877
+              ],
+              [
+                37.5505403,
+                55.8336577
+              ],
+              [
+                37.5508492,
+                55.833722
+              ],
+              [
+                37.5510941,
+                55.8336619
+              ],
+              [
+                37.5511078,
+                55.8336738
+              ],
+              [
+                37.5511623,
+                55.8336619
+              ],
+              [
+                37.5511471,
+                55.8336457
+              ],
+              [
+                37.5515301,
+                55.8335485
+              ],
+              [
+                37.5513501,
+                55.8334825
+              ],
+              [
+                37.550949,
+                55.833593
+              ],
+              [
+                37.5508873,
+                55.8336071
+              ],
+              [
+                37.5507747,
+                55.8335814
+              ],
+              [
+                37.5506835,
+                55.8335644
+              ],
+              [
+                37.5503096,
+                55.8334879
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r15618905",
+        "osm_id": "15618905",
+        "osm_type": "relation",
+        "osm_version": "1",
+        "osm_timestamp": "2023-03-19T15:31:59Z",
+        "osm_uid": "419641",
+        "osm_user": "Silka123",
+        "osm_changeset": "133862755",
+        "building": "university",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5575842,
+                55.8357036
+              ],
+              [
+                37.5575574,
+                55.8356973
+              ],
+              [
+                37.5576964,
+                55.835516
+              ],
+              [
+                37.557731,
+                55.8355244
+              ],
+              [
+                37.5578707,
+                55.835342
+              ],
+              [
+                37.5572902,
+                55.835201
+              ],
+              [
+                37.5570379,
+                55.8355302
+              ],
+              [
+                37.5568784,
+                55.8357397
+              ],
+              [
+                37.5574505,
+                55.8358779
+              ],
+              [
+                37.5575842,
+                55.8357036
+              ]
+            ],
+            [
+              [
+                37.5574327,
+                55.835456
+              ],
+              [
+                37.5572926,
+                55.8356294
+              ],
+              [
+                37.557161,
+                55.8355963
+              ],
+              [
+                37.5572988,
+                55.8354219
+              ],
+              [
+                37.5574327,
+                55.835456
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w28817604",
+        "osm_id": "28817604",
+        "osm_type": "way",
+        "osm_version": "9",
+        "osm_timestamp": "2019-04-06T12:02:01",
+        "osm_uid": "674027",
+        "osm_user": "",
+        "osm_changeset": "68950198",
+        "building": "university",
+        "building:levels": "3",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5496758,
+                55.8347647
+              ],
+              [
+                37.5498275,
+                55.8345473
+              ],
+              [
+                37.550468,
+                55.8346882
+              ],
+              [
+                37.5503271,
+                55.8348901
+              ],
+              [
+                37.5505574,
+                55.8349408
+              ],
+              [
+                37.5508459,
+                55.8345272
+              ],
+              [
+                37.5506157,
+                55.8344765
+              ],
+              [
+                37.5505465,
+                55.8345758
+              ],
+              [
+                37.5502595,
+                55.8345123
+              ],
+              [
+                37.5503195,
+                55.8344263
+              ],
+              [
+                37.5504241,
+                55.8344494
+              ],
+              [
+                37.5506012,
+                55.8341954
+              ],
+              [
+                37.5503051,
+                55.8341303
+              ],
+              [
+                37.550128,
+                55.8343842
+              ],
+              [
+                37.5502229,
+                55.8344051
+              ],
+              [
+                37.5501627,
+                55.8344913
+              ],
+              [
+                37.549906,
+                55.8344348
+              ],
+              [
+                37.5499871,
+                55.8343185
+              ],
+              [
+                37.5497678,
+                55.8342702
+              ],
+              [
+                37.5494565,
+                55.8347164
+              ],
+              [
+                37.5496758,
+                55.8347647
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791294",
+        "osm_id": "32791294",
+        "osm_type": "way",
+        "osm_version": "8",
+        "osm_timestamp": "2024-01-30T12:23:17",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "146861708",
+        "building": "university",
+        "building:levels": "2",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5689053,
+                55.8353165
+              ],
+              [
+                37.5696296,
+                55.8354608
+              ],
+              [
+                37.569776,
+                55.8352291
+              ],
+              [
+                37.569407,
+                55.8351549
+              ],
+              [
+                37.5692971,
+                55.8351344
+              ],
+              [
+                37.5690517,
+                55.8350848
+              ],
+              [
+                37.5689053,
+                55.8353165
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791585",
+        "osm_id": "32791585",
+        "osm_type": "way",
+        "osm_version": "9",
+        "osm_timestamp": "2019-04-06T12:02:02",
+        "osm_uid": "674027",
+        "osm_user": "",
+        "osm_changeset": "68950198",
+        "building": "university",
+        "building:levels": "3",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5562907,
+                55.8341162
+              ],
+              [
+                37.5566336,
+                55.8335899
+              ],
+              [
+                37.5559646,
+                55.8334524
+              ],
+              [
+                37.5558968,
+                55.8335565
+              ],
+              [
+                37.5563634,
+                55.8336524
+              ],
+              [
+                37.5561856,
+                55.8339219
+              ],
+              [
+                37.5561469,
+                55.8339159
+              ],
+              [
+                37.5561024,
+                55.8339208
+              ],
+              [
+                37.5560699,
+                55.8339318
+              ],
+              [
+                37.5560573,
+                55.8339524
+              ],
+              [
+                37.5560701,
+                55.8339687
+              ],
+              [
+                37.5560838,
+                55.8339777
+              ],
+              [
+                37.5561098,
+                55.8339854
+              ],
+              [
+                37.5561416,
+                55.8339927
+              ],
+              [
+                37.5560883,
+                55.8340746
+              ],
+              [
+                37.5562907,
+                55.8341162
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791586",
+        "osm_id": "32791586",
+        "osm_type": "way",
+        "osm_version": "7",
+        "osm_timestamp": "2023-12-08T05:06:12",
+        "osm_uid": "599809",
+        "osm_user": "",
+        "osm_changeset": "144888065",
+        "building": "university",
+        "building:levels": "3",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5577825,
+                55.8338758
+              ],
+              [
+                37.5575651,
+                55.8338303
+              ],
+              [
+                37.5573992,
+                55.8340805
+              ],
+              [
+                37.5570523,
+                55.834008
+              ],
+              [
+                37.5572183,
+                55.8337578
+              ],
+              [
+                37.5570239,
+                55.8337171
+              ],
+              [
+                37.5567761,
+                55.8340907
+              ],
+              [
+                37.5569744,
+                55.8341322
+              ],
+              [
+                37.5569918,
+                55.8341061
+              ],
+              [
+                37.5573284,
+                55.8341765
+              ],
+              [
+                37.5572678,
+                55.8342679
+              ],
+              [
+                37.5580542,
+                55.8344324
+              ],
+              [
+                37.5582905,
+                55.8340761
+              ],
+              [
+                37.5580584,
+                55.8340275
+              ],
+              [
+                37.5578921,
+                55.8342782
+              ],
+              [
+                37.5575615,
+                55.8342091
+              ],
+              [
+                37.5577825,
+                55.8338758
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791588",
+        "osm_id": "32791588",
+        "osm_type": "way",
+        "osm_version": "5",
+        "osm_timestamp": "2021-04-24T06:31:18",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "103518095",
+        "building": "university",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5568427,
+                55.8318647
+              ],
+              [
+                37.5566942,
+                55.831997
+              ],
+              [
+                37.5569356,
+                55.8320825
+              ],
+              [
+                37.5564721,
+                55.8324954
+              ],
+              [
+                37.5572966,
+                55.8327873
+              ],
+              [
+                37.5577623,
+                55.8323724
+              ],
+              [
+                37.5580074,
+                55.8324592
+              ],
+              [
+                37.5581536,
+                55.8323289
+              ],
+              [
+                37.5572947,
+                55.8320248
+              ],
+              [
+                37.5572231,
+                55.8319994
+              ],
+              [
+                37.5568427,
+                55.8318647
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791717",
+        "osm_id": "32791717",
+        "osm_type": "way",
+        "osm_version": "7",
+        "osm_timestamp": "2021-04-24T06:31:18",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "103518095",
+        "building": "university",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5543421,
+                55.8303704
+              ],
+              [
+                37.5548196,
+                55.8305063
+              ],
+              [
+                37.555318,
+                55.8306481
+              ],
+              [
+                37.5555985,
+                55.8303301
+              ],
+              [
+                37.5554021,
+                55.830277
+              ],
+              [
+                37.5552319,
+                55.8304841
+              ],
+              [
+                37.5546242,
+                55.8303142
+              ],
+              [
+                37.5547983,
+                55.8301114
+              ],
+              [
+                37.5546065,
+                55.8300593
+              ],
+              [
+                37.5543421,
+                55.8303704
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791722",
+        "osm_id": "32791722",
+        "osm_type": "way",
+        "osm_version": "10",
+        "osm_timestamp": "2020-07-02T19:02:23",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "87467740",
+        "building": "university",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5539165,
+                55.8335117
+              ],
+              [
+                37.5541326,
+                55.8331934
+              ],
+              [
+                37.5546305,
+                55.8333
+              ],
+              [
+                37.5546531,
+                55.8332654
+              ],
+              [
+                37.5548033,
+                55.8330394
+              ],
+              [
+                37.5549192,
+                55.8328747
+              ],
+              [
+                37.5552511,
+                55.8329458
+              ],
+              [
+                37.5553304,
+                55.8328289
+              ],
+              [
+                37.5547798,
+                55.832711
+              ],
+              [
+                37.5547451,
+                55.8327621
+              ],
+              [
+                37.5546141,
+                55.8327317
+              ],
+              [
+                37.5544099,
+                55.8327792
+              ],
+              [
+                37.5543253,
+                55.8328939
+              ],
+              [
+                37.5544099,
+                55.8330086
+              ],
+              [
+                37.5545549,
+                55.8330423
+              ],
+              [
+                37.554474,
+                55.8331614
+              ],
+              [
+                37.5540036,
+                55.8330607
+              ],
+              [
+                37.5536384,
+                55.8335988
+              ],
+              [
+                37.553951,
+                55.8336657
+              ],
+              [
+                37.5540379,
+                55.8335377
+              ],
+              [
+                37.5539165,
+                55.8335117
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791835",
+        "osm_id": "32791835",
+        "osm_type": "way",
+        "osm_version": "5",
+        "osm_timestamp": "2018-07-06T13:49:04",
+        "osm_uid": "830106",
+        "osm_user": "",
+        "osm_changeset": "60468355",
+        "building": "university",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5564873,
+                55.8346381
+              ],
+              [
+                37.5563429,
+                55.8348624
+              ],
+              [
+                37.5565261,
+                55.8348996
+              ],
+              [
+                37.5565805,
+                55.834815
+              ],
+              [
+                37.5578424,
+                55.8350709
+              ],
+              [
+                37.5577879,
+                55.8351555
+              ],
+              [
+                37.5579922,
+                55.835197
+              ],
+              [
+                37.5581365,
+                55.8349726
+              ],
+              [
+                37.557431,
+                55.8348295
+              ],
+              [
+                37.5574429,
+                55.8348111
+              ],
+              [
+                37.5573112,
+                55.8347844
+              ],
+              [
+                37.5571648,
+                55.8347547
+              ],
+              [
+                37.5571529,
+                55.8347731
+              ],
+              [
+                37.556982,
+                55.8347384
+              ],
+              [
+                37.5564873,
+                55.8346381
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791837",
+        "osm_id": "32791837",
+        "osm_type": "way",
+        "osm_version": "7",
+        "osm_timestamp": "2017-08-27T11:47:04",
+        "osm_uid": "564990",
+        "osm_user": "",
+        "osm_changeset": "51479692",
+        "building": "university",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5558099,
+                55.8355574
+              ],
+              [
+                37.5560041,
+                55.8356068
+              ],
+              [
+                37.5560843,
+                55.8355073
+              ],
+              [
+                37.5566092,
+                55.8356407
+              ],
+              [
+                37.5566878,
+                55.8355431
+              ],
+              [
+                37.556324,
+                55.8354507
+              ],
+              [
+                37.5565082,
+                55.8352221
+              ],
+              [
+                37.5568627,
+                55.8353122
+              ],
+              [
+                37.5569178,
+                55.8352439
+              ],
+              [
+                37.5569486,
+                55.8352517
+              ],
+              [
+                37.556977,
+                55.8352165
+              ],
+              [
+                37.5564142,
+                55.8350734
+              ],
+              [
+                37.5564927,
+                55.8349761
+              ],
+              [
+                37.5563068,
+                55.8349288
+              ],
+              [
+                37.5561433,
+                55.8351317
+              ],
+              [
+                37.5561778,
+                55.8351404
+              ],
+              [
+                37.5561328,
+                55.8351962
+              ],
+              [
+                37.5560322,
+                55.8351707
+              ],
+              [
+                37.5559437,
+                55.8352805
+              ],
+              [
+                37.5560458,
+                55.8353064
+              ],
+              [
+                37.5560053,
+                55.8353567
+              ],
+              [
+                37.5559774,
+                55.8353496
+              ],
+              [
+                37.5558099,
+                55.8355574
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791873",
+        "osm_id": "32791873",
+        "osm_type": "way",
+        "osm_version": "5",
+        "osm_timestamp": "2020-08-22T07:31:20",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "89772653",
+        "building": "university",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.554709,
+                55.8351166
+              ],
+              [
+                37.554802,
+                55.8351161
+              ],
+              [
+                37.5549401,
+                55.8351155
+              ],
+              [
+                37.5551875,
+                55.8351143
+              ],
+              [
+                37.5551862,
+                55.8350225
+              ],
+              [
+                37.5551684,
+                55.8350225
+              ],
+              [
+                37.5551678,
+                55.83498
+              ],
+              [
+                37.5551855,
+                55.8349799
+              ],
+              [
+                37.5551833,
+                55.8348319
+              ],
+              [
+                37.5547048,
+                55.8348341
+              ],
+              [
+                37.554707,
+                55.8349818
+              ],
+              [
+                37.5547252,
+                55.8349817
+              ],
+              [
+                37.5547258,
+                55.8350231
+              ],
+              [
+                37.5547076,
+                55.8350232
+              ],
+              [
+                37.554709,
+                55.8351166
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791874",
+        "osm_id": "32791874",
+        "osm_type": "way",
+        "osm_version": "30",
+        "osm_timestamp": "2023-09-17T00:03:31",
+        "osm_uid": "461130",
+        "osm_user": "",
+        "osm_changeset": "141362331",
+        "building": "university",
+        "building:levels": "3",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5527997,
+                55.8342377
+              ],
+              [
+                37.553014,
+                55.8342813
+              ],
+              [
+                37.5530707,
+                55.8341937
+              ],
+              [
+                37.5536222,
+                55.8343062
+              ],
+              [
+                37.5535786,
+                55.8343736
+              ],
+              [
+                37.553733,
+                55.8344051
+              ],
+              [
+                37.553831,
+                55.8342547
+              ],
+              [
+                37.5538571,
+                55.83426
+              ],
+              [
+                37.5539025,
+                55.8341898
+              ],
+              [
+                37.5539078,
+                55.834182
+              ],
+              [
+                37.553909,
+                55.834175
+              ],
+              [
+                37.5539055,
+                55.8341668
+              ],
+              [
+                37.5538927,
+                55.8341598
+              ],
+              [
+                37.5538761,
+                55.8341595
+              ],
+              [
+                37.5538587,
+                55.8341633
+              ],
+              [
+                37.553848,
+                55.8341704
+              ],
+              [
+                37.5538428,
+                55.8341776
+              ],
+              [
+                37.5538355,
+                55.834187
+              ],
+              [
+                37.553762,
+                55.834172
+              ],
+              [
+                37.5537409,
+                55.8341678
+              ],
+              [
+                37.5537241,
+                55.8341646
+              ],
+              [
+                37.5537157,
+                55.8341631
+              ],
+              [
+                37.5537077,
+                55.8341782
+              ],
+              [
+                37.5536399,
+                55.8341639
+              ],
+              [
+                37.5536292,
+                55.8341616
+              ],
+              [
+                37.5535709,
+                55.8341499
+              ],
+              [
+                37.5535137,
+                55.8341374
+              ],
+              [
+                37.5535414,
+                55.8340938
+              ],
+              [
+                37.5535588,
+                55.8340663
+              ],
+              [
+                37.5535756,
+                55.8340389
+              ],
+              [
+                37.5535917,
+                55.8340133
+              ],
+              [
+                37.5536027,
+                55.8339958
+              ],
+              [
+                37.553622,
+                55.8339997
+              ],
+              [
+                37.5536381,
+                55.8339994
+              ],
+              [
+                37.5536522,
+                55.8339959
+              ],
+              [
+                37.5536656,
+                55.8339901
+              ],
+              [
+                37.5536767,
+                55.8339798
+              ],
+              [
+                37.5536813,
+                55.8339679
+              ],
+              [
+                37.5536772,
+                55.8339551
+              ],
+              [
+                37.5536716,
+                55.8339465
+              ],
+              [
+                37.5536544,
+                55.8339383
+              ],
+              [
+                37.5534645,
+                55.8339002
+              ],
+              [
+                37.5533487,
+                55.8340793
+              ],
+              [
+                37.5529541,
+                55.8339989
+              ],
+              [
+                37.5527997,
+                55.8342377
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791973",
+        "osm_id": "32791973",
+        "osm_type": "way",
+        "osm_version": "33",
+        "osm_timestamp": "2023-09-17T00:03:31",
+        "osm_uid": "461130",
+        "osm_user": "",
+        "osm_changeset": "141362331",
+        "building": "university",
+        "building:levels": "3",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5517787,
+                55.8344625
+              ],
+              [
+                37.5521548,
+                55.8345412
+              ],
+              [
+                37.5521851,
+                55.8344955
+              ],
+              [
+                37.552253,
+                55.8345097
+              ],
+              [
+                37.5523101,
+                55.8344236
+              ],
+              [
+                37.552261,
+                55.8344134
+              ],
+              [
+                37.5522892,
+                55.8343709
+              ],
+              [
+                37.5518771,
+                55.8342847
+              ],
+              [
+                37.5518983,
+                55.8342528
+              ],
+              [
+                37.551941,
+                55.8342429
+              ],
+              [
+                37.5520045,
+                55.8341568
+              ],
+              [
+                37.5519821,
+                55.8341264
+              ],
+              [
+                37.5520022,
+                55.8340963
+              ],
+              [
+                37.5524142,
+                55.8341824
+              ],
+              [
+                37.5524338,
+                55.8341528
+              ],
+              [
+                37.5526375,
+                55.8341954
+              ],
+              [
+                37.5526993,
+                55.8341021
+              ],
+              [
+                37.5524769,
+                55.8340556
+              ],
+              [
+                37.5525168,
+                55.8339954
+              ],
+              [
+                37.5521406,
+                55.8339168
+              ],
+              [
+                37.5522433,
+                55.8337619
+              ],
+              [
+                37.5519173,
+                55.8336947
+              ],
+              [
+                37.5518795,
+                55.8336858
+              ],
+              [
+                37.5518073,
+                55.8337933
+              ],
+              [
+                37.5517869,
+                55.8338253
+              ],
+              [
+                37.5519757,
+                55.8338648
+              ],
+              [
+                37.5518528,
+                55.8340501
+              ],
+              [
+                37.5517877,
+                55.834035
+              ],
+              [
+                37.5516342,
+                55.8340707
+              ],
+              [
+                37.5516218,
+                55.8340875
+              ],
+              [
+                37.5516106,
+                55.8341028
+              ],
+              [
+                37.5515826,
+                55.8341409
+              ],
+              [
+                37.5515709,
+                55.8341568
+              ],
+              [
+                37.5516152,
+                55.8342393
+              ],
+              [
+                37.5517129,
+                55.8342611
+              ],
+              [
+                37.5515932,
+                55.8344415
+              ],
+              [
+                37.5514045,
+                55.834402
+              ],
+              [
+                37.5513063,
+                55.8345501
+              ],
+              [
+                37.5516701,
+                55.8346262
+              ],
+              [
+                37.5517787,
+                55.8344625
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w51280708",
+        "osm_id": "51280708",
+        "osm_type": "way",
+        "osm_version": "5",
+        "osm_timestamp": "2021-01-25T19:44:09",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "98141776",
+        "building": "university",
+        "building:levels": "2",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5554974,
+                55.8372453
+              ],
+              [
+                37.5554037,
+                55.8373577
+              ],
+              [
+                37.5553961,
+                55.8373669
+              ],
+              [
+                37.5553877,
+                55.8373769
+              ],
+              [
+                37.555379,
+                55.8373874
+              ],
+              [
+                37.5553199,
+                55.8374582
+              ],
+              [
+                37.5552614,
+                55.8375285
+              ],
+              [
+                37.5554759,
+                55.8375887
+              ],
+              [
+                37.555712,
+                55.8372995
+              ],
+              [
+                37.5554974,
+                55.8372453
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w97098305",
+        "osm_id": "97098305",
+        "osm_type": "way",
+        "osm_version": "6",
+        "osm_timestamp": "2020-07-01T04:31:23",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "87374829",
+        "building": "university",
+        "building:levels": "2",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5464037,
+                55.8280919
+              ],
+              [
+                37.5465811,
+                55.8279771
+              ],
+              [
+                37.5463676,
+                55.827873
+              ],
+              [
+                37.5467319,
+                55.8276373
+              ],
+              [
+                37.5469615,
+                55.8277492
+              ],
+              [
+                37.5467524,
+                55.8278845
+              ],
+              [
+                37.5469074,
+                55.8279601
+              ],
+              [
+                37.5471148,
+                55.827826
+              ],
+              [
+                37.5473388,
+                55.8279351
+              ],
+              [
+                37.5469817,
+                55.8281662
+              ],
+              [
+                37.546759,
+                55.8280576
+              ],
+              [
+                37.5465797,
+                55.8281737
+              ],
+              [
+                37.547003,
+                55.8283801
+              ],
+              [
+                37.547607,
+                55.8279892
+              ],
+              [
+                37.5477207,
+                55.8279156
+              ],
+              [
+                37.5467044,
+                55.8274202
+              ],
+              [
+                37.5466718,
+                55.8274413
+              ],
+              [
+                37.5464379,
+                55.8275926
+              ],
+              [
+                37.5459832,
+                55.8278869
+              ],
+              [
+                37.5464037,
+                55.8280919
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w97098315",
+        "osm_id": "97098315",
+        "osm_type": "way",
+        "osm_version": "2",
+        "osm_timestamp": "2018-05-31T15:01:59",
+        "osm_uid": "674027",
+        "osm_user": "",
+        "osm_changeset": "59433168",
+        "building": "university",
+        "building:levels": "2",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5458189,
+                55.8270037
+              ],
+              [
+                37.5456587,
+                55.8270933
+              ],
+              [
+                37.545848,
+                55.8272
+              ],
+              [
+                37.5460081,
+                55.8271104
+              ],
+              [
+                37.5458189,
+                55.8270037
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w97098316",
+        "osm_id": "97098316",
+        "osm_type": "way",
+        "osm_version": "2",
+        "osm_timestamp": "2018-05-31T15:01:58",
+        "osm_uid": "674027",
+        "osm_user": "",
+        "osm_changeset": "59433168",
+        "building": "university",
+        "building:levels": "2",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5427137,
+                55.8273393
+              ],
+              [
+                37.5426451,
+                55.8274429
+              ],
+              [
+                37.543562,
+                55.8276344
+              ],
+              [
+                37.5436081,
+                55.8275648
+              ],
+              [
+                37.5437609,
+                55.8275967
+              ],
+              [
+                37.5438116,
+                55.8275225
+              ],
+              [
+                37.543697,
+                55.8274987
+              ],
+              [
+                37.5437226,
+                55.82746
+              ],
+              [
+                37.5429744,
+                55.8273037
+              ],
+              [
+                37.5429221,
+                55.8273828
+              ],
+              [
+                37.5427137,
+                55.8273393
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w97098322",
+        "osm_id": "97098322",
+        "osm_type": "way",
+        "osm_version": "1",
+        "osm_timestamp": "2011-01-28T15:08:53",
+        "osm_uid": "151304",
+        "osm_user": "",
+        "osm_changeset": "7113808",
+        "building": "university",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5480754,
+                55.8270537
+              ],
+              [
+                37.5482605,
+                55.8270951
+              ],
+              [
+                37.5483967,
+                55.826903
+              ],
+              [
+                37.5482116,
+                55.8268616
+              ],
+              [
+                37.5480754,
+                55.8270537
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w120677033",
+        "osm_id": "120677033",
+        "osm_type": "way",
+        "osm_version": "3",
+        "osm_timestamp": "2015-08-25T10:47:01",
+        "osm_uid": "2672618",
+        "osm_user": "",
+        "osm_changeset": "33567755",
+        "building": "university",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5516986,
+                55.8294346
+              ],
+              [
+                37.5523115,
+                55.8295957
+              ],
+              [
+                37.5524789,
+                55.8293947
+              ],
+              [
+                37.5522955,
+                55.8293465
+              ],
+              [
+                37.5522209,
+                55.8294361
+              ],
+              [
+                37.5519733,
+                55.829371
+              ],
+              [
+                37.5520479,
+                55.8292815
+              ],
+              [
+                37.5518659,
+                55.8292337
+              ],
+              [
+                37.5516986,
+                55.8294346
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w135411562",
+        "osm_id": "135411562",
+        "osm_type": "way",
+        "osm_version": "5",
+        "osm_timestamp": "2024-01-30T12:23:17",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "146861708",
+        "building": "university",
+        "building:levels": "1",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5704278,
+                55.8355875
+              ],
+              [
+                37.5703728,
+                55.8356683
+              ],
+              [
+                37.570551,
+                55.8357066
+              ],
+              [
+                37.5705834,
+                55.835659
+              ],
+              [
+                37.5705299,
+                55.8356475
+              ],
+              [
+                37.5705525,
+                55.8356143
+              ],
+              [
+                37.5704278,
+                55.8355875
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w221665012",
+        "osm_id": "221665012",
+        "osm_type": "way",
+        "osm_version": "6",
+        "osm_timestamp": "2020-08-24T11:14:23",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "89853731",
+        "building": "university",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5547727,
+                55.8364155
+              ],
+              [
+                37.5548516,
+                55.836415
+              ],
+              [
+                37.5548774,
+                55.836415
+              ],
+              [
+                37.5549026,
+                55.8364147
+              ],
+              [
+                37.5549509,
+                55.8364142
+              ],
+              [
+                37.5551322,
+                55.8364128
+              ],
+              [
+                37.5551289,
+                55.8362758
+              ],
+              [
+                37.5547694,
+                55.8362785
+              ],
+              [
+                37.5547727,
+                55.8364155
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w273077347",
+        "osm_id": "273077347",
+        "osm_type": "way",
+        "osm_version": "3",
+        "osm_timestamp": "2015-08-25T10:47:00",
+        "osm_uid": "2672618",
+        "osm_user": "",
+        "osm_changeset": "33567755",
+        "building": "university",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5486056,
+                55.8352619
+              ],
+              [
+                37.5486105,
+                55.8352719
+              ],
+              [
+                37.5486262,
+                55.8352869
+              ],
+              [
+                37.5486483,
+                55.8352992
+              ],
+              [
+                37.5486753,
+                55.8353078
+              ],
+              [
+                37.5487053,
+                55.8353123
+              ],
+              [
+                37.5487364,
+                55.8353122
+              ],
+              [
+                37.5487664,
+                55.8353075
+              ],
+              [
+                37.5487776,
+                55.8353039
+              ],
+              [
+                37.5488835,
+                55.8353297
+              ],
+              [
+                37.5489397,
+                55.8352571
+              ],
+              [
+                37.5488356,
+                55.8352317
+              ],
+              [
+                37.5488299,
+                55.83522
+              ],
+              [
+                37.5488142,
+                55.8352049
+              ],
+              [
+                37.5487921,
+                55.8351927
+              ],
+              [
+                37.5487651,
+                55.835184
+              ],
+              [
+                37.548735,
+                55.8351796
+              ],
+              [
+                37.548704,
+                55.8351797
+              ],
+              [
+                37.548674,
+                55.8351843
+              ],
+              [
+                37.5486601,
+                55.8351889
+              ],
+              [
+                37.548572,
+                55.8351674
+              ],
+              [
+                37.5485158,
+                55.83524
+              ],
+              [
+                37.5486056,
+                55.8352619
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w279461099",
+        "osm_id": "279461099",
+        "osm_type": "way",
+        "osm_version": "4",
+        "osm_timestamp": "2017-07-02T11:19:19",
+        "osm_uid": "260756",
+        "osm_user": "",
+        "osm_changeset": "49982377",
+        "building": "university",
+        "building:levels": "3",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5532486,
+                55.8304744
+              ],
+              [
+                37.5530646,
+                55.8306902
+              ],
+              [
+                37.5530369,
+                55.8306828
+              ],
+              [
+                37.5530162,
+                55.8307071
+              ],
+              [
+                37.5529428,
+                55.8306873
+              ],
+              [
+                37.5528711,
+                55.8307714
+              ],
+              [
+                37.5529427,
+                55.8307907
+              ],
+              [
+                37.5529215,
+                55.8308155
+              ],
+              [
+                37.5529621,
+                55.8308265
+              ],
+              [
+                37.5527828,
+                55.8310366
+              ],
+              [
+                37.5530285,
+                55.8311028
+              ],
+              [
+                37.5530922,
+                55.831028
+              ],
+              [
+                37.5530589,
+                55.831019
+              ],
+              [
+                37.5531552,
+                55.8309062
+              ],
+              [
+                37.5531846,
+                55.8309142
+              ],
+              [
+                37.5532088,
+                55.8308858
+              ],
+              [
+                37.5532899,
+                55.8309076
+              ],
+              [
+                37.5534026,
+                55.8307755
+              ],
+              [
+                37.5533126,
+                55.8307513
+              ],
+              [
+                37.5533408,
+                55.8307182
+              ],
+              [
+                37.5533135,
+                55.8307109
+              ],
+              [
+                37.5533858,
+                55.8306261
+              ],
+              [
+                37.5534339,
+                55.830639
+              ],
+              [
+                37.5535135,
+                55.8305457
+              ],
+              [
+                37.5532486,
+                55.8304744
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "https://www.notion.so/ce31175bc41a40259991862788624898",
+        "osm_id": null,
+        "osm_type": null,
+        "osm_version": null,
+        "osm_timestamp": null,
+        "osm_uid": null,
+        "osm_user": null,
+        "osm_changeset": null,
+        "building": null,
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r5461891",
+        "osm_id": "5461891",
+        "osm_type": "relation",
+        "osm_version": "17",
+        "osm_timestamp": "2024-12-06T01:07:06Z",
+        "osm_uid": "100812",
+        "osm_user": "Zkir",
+        "osm_changeset": "159977199",
+        "building": "university",
+        "building:levels": null,
+        "mulipoligon_id": 3,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.548377,
+                55.8347717
+              ],
+              [
+                37.5480091,
+                55.8346978
+              ],
+              [
+                37.5481704,
+                55.834433
+              ],
+              [
+                37.5479418,
+                55.8343902
+              ],
+              [
+                37.5477866,
+                55.8346709
+              ],
+              [
+                37.5475975,
+                55.8346395
+              ],
+              [
+                37.5475165,
+                55.8347639
+              ],
+              [
+                37.5475478,
+                55.834769
+              ],
+              [
+                37.5475945,
+                55.8347767
+              ],
+              [
+                37.5476186,
+                55.8347806
+              ],
+              [
+                37.5476429,
+                55.8347846
+              ],
+              [
+                37.5476647,
+                55.8347882
+              ],
+              [
+                37.5477187,
+                55.8347971
+              ],
+              [
+                37.547705,
+                55.8348214
+              ],
+              [
+                37.5479196,
+                55.8348578
+              ],
+              [
+                37.547931,
+                55.8348305
+              ],
+              [
+                37.548075,
+                55.8348538
+              ],
+              [
+                37.5482641,
+                55.8348854
+              ],
+              [
+                37.5483068,
+                55.8348924
+              ],
+              [
+                37.548377,
+                55.8347717
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w654425058",
+        "osm_id": "654425058",
+        "osm_type": "way",
+        "osm_version": "2",
+        "osm_timestamp": "2022-12-21T16:23:37",
+        "osm_uid": "18053422",
+        "osm_user": "",
+        "osm_changeset": "130340622",
+        "building": "university",
+        "building:levels": "2",
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5577637,
+                55.8361355
+              ],
+              [
+                37.5575438,
+                55.836081
+              ],
+              [
+                37.5568085,
+                55.8370179
+              ],
+              [
+                37.5571706,
+                55.8371075
+              ],
+              [
+                37.5572519,
+                55.837004
+              ],
+              [
+                37.5570442,
+                55.8369525
+              ],
+              [
+                37.5571329,
+                55.8368394
+              ],
+              [
+                37.5572589,
+                55.8368706
+              ],
+              [
+                37.557386,
+                55.8367086
+              ],
+              [
+                37.5574802,
+                55.836732
+              ],
+              [
+                37.5576237,
+                55.8365492
+              ],
+              [
+                37.5575259,
+                55.836525
+              ],
+              [
+                37.557657,
+                55.836358
+              ],
+              [
+                37.5576001,
+                55.836344
+              ],
+              [
+                37.5577637,
+                55.8361355
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w839550197",
+        "osm_id": "839550197",
+        "osm_type": "way",
+        "osm_version": "3",
+        "osm_timestamp": "2023-07-20T08:23:50",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "138751278",
+        "building": "university",
+        "building:levels": "11",
+        "mulipoligon_id": 1,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5493435,
+                55.8391705
+              ],
+              [
+                37.5497151,
+                55.8392582
+              ],
+              [
+                37.549593,
+                55.8394355
+              ],
+              [
+                37.549829,
+                55.8395229
+              ],
+              [
+                37.5500599,
+                55.8391811
+              ],
+              [
+                37.5503071,
+                55.8388367
+              ],
+              [
+                37.5500585,
+                55.8387822
+              ],
+              [
+                37.5499345,
+                55.838956
+              ],
+              [
+                37.5495648,
+                55.8388692
+              ],
+              [
+                37.5493435,
+                55.8391705
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r12234554",
+        "osm_id": "12234554",
+        "osm_type": "relation",
+        "osm_version": "2",
+        "osm_timestamp": "2023-07-20T08:23:50Z",
+        "osm_uid": "18826385",
+        "osm_user": "MarinaKuzko",
+        "osm_changeset": "138751278",
+        "building": "university",
+        "building:levels": "3",
+        "mulipoligon_id": 1,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5476418,
+                55.8379396
+              ],
+              [
+                37.5475116,
+                55.8381101
+              ],
+              [
+                37.5480051,
+                55.8382306
+              ],
+              [
+                37.5479354,
+                55.8383361
+              ],
+              [
+                37.5483583,
+                55.8384355
+              ],
+              [
+                37.5486468,
+                55.8385033
+              ],
+              [
+                37.548858,
+                55.8385529
+              ],
+              [
+                37.5490512,
+                55.8382698
+              ],
+              [
+                37.5476418,
+                55.8379396
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                37.548327,
+                55.8389686
+              ],
+              [
+                37.5483952,
+                55.8388694
+              ],
+              [
+                37.5486468,
+                55.8385033
+              ],
+              [
+                37.5483583,
+                55.8384355
+              ],
+              [
+                37.5480609,
+                55.8388644
+              ],
+              [
+                37.548327,
+                55.8389686
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w293288198",
+        "osm_id": "293288198",
+        "osm_type": "way",
+        "osm_version": "5",
+        "osm_timestamp": "2023-07-20T08:23:50",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "138751278",
+        "building": "university",
+        "building:levels": "4",
+        "mulipoligon_id": 1,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5496842,
+                55.8397277
+              ],
+              [
+                37.549829,
+                55.8395229
+              ],
+              [
+                37.549593,
+                55.8394355
+              ],
+              [
+                37.5492506,
+                55.8393092
+              ],
+              [
+                37.5484583,
+                55.839017
+              ],
+              [
+                37.5483869,
+                55.8389907
+              ],
+              [
+                37.548327,
+                55.8389686
+              ],
+              [
+                37.5480609,
+                55.8388644
+              ],
+              [
+                37.5476779,
+                55.8387216
+              ],
+              [
+                37.5472863,
+                55.8386343
+              ],
+              [
+                37.5471844,
+                55.8387939
+              ],
+              [
+                37.5482561,
+                55.8391942
+              ],
+              [
+                37.5496842,
+                55.8397277
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                37.5476779,
+                55.8387216
+              ],
+              [
+                37.5480051,
+                55.8382306
+              ],
+              [
+                37.5475116,
+                55.8381101
+              ],
+              [
+                37.5471468,
+                55.8385981
+              ],
+              [
+                37.5472863,
+                55.8386343
+              ],
+              [
+                37.5476779,
+                55.8387216
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w367416185",
+        "osm_id": "367416185",
+        "osm_type": "way",
+        "osm_version": "1",
+        "osm_timestamp": "2015-08-25T10:46:57",
+        "osm_uid": "2672618",
+        "osm_user": "",
+        "osm_changeset": "33567755",
+        "building": "university",
+        "building:levels": null,
+        "mulipoligon_id": 2,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5526638,
+                55.8270871
+              ],
+              [
+                37.5530936,
+                55.8271993
+              ],
+              [
+                37.5533757,
+                55.827271
+              ],
+              [
+                37.5538482,
+                55.8273953
+              ],
+              [
+                37.5543662,
+                55.8267816
+              ],
+              [
+                37.5531641,
+                55.8264591
+              ],
+              [
+                37.5526638,
+                55.8270871
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w367416195",
+        "osm_id": "367416195",
+        "osm_type": "way",
+        "osm_version": "1",
+        "osm_timestamp": "2015-08-25T10:46:58",
+        "osm_uid": "2672618",
+        "osm_user": "",
+        "osm_changeset": "33567755",
+        "building": "university",
+        "building:levels": null,
+        "mulipoligon_id": 2,
+        "name": null,
+        "title": null,
+        "type": "university_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "building_function": null,
+        "primary_use": null,
+        "departments": [],
+        "services": [],
+        "offices": null,
+        "meeting_rooms": null,
+        "archive_rooms": null,
+        "reception_areas": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_reception": false,
+        "administration_phone": null,
+        "administration_hours": null,
+        "administration_website": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "visitor_registration": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5528082,
+                55.827552
+              ],
+              [
+                37.5526706,
+                55.8276633
+              ],
+              [
+                37.552778,
+                55.8276897
+              ],
+              [
+                37.5525127,
+                55.8279669
+              ],
+              [
+                37.5526706,
+                55.8280141
+              ],
+              [
+                37.5530298,
+                55.827618
+              ],
+              [
+                37.5530802,
+                55.8276369
+              ],
+              [
+                37.5533757,
+                55.827271
+              ],
+              [
+                37.5530936,
+                55.8271993
+              ],
+              [
+                37.5528082,
+                55.827552
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

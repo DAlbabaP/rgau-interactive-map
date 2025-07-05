@@ -1,0 +1,1812 @@
+{
+  "type": "FeatureCollection",
+  "name": "dormitory_buildings",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r11577032",
+        "osm_id": "11577032",
+        "osm_type": "relation",
+        "osm_version": "1",
+        "osm_timestamp": "2020-09-03T09:07:00Z",
+        "osm_uid": "396906",
+        "osm_user": "ghost_07",
+        "osm_changeset": "90350096",
+        "building": "dormitory",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5538978,
+                55.8309641
+              ],
+              [
+                37.553651,
+                55.8312514
+              ],
+              [
+                37.5537596,
+                55.8312808
+              ],
+              [
+                37.5540225,
+                55.831352
+              ],
+              [
+                37.5541797,
+                55.8311692
+              ],
+              [
+                37.55465,
+                55.8312966
+              ],
+              [
+                37.554682,
+                55.8312594
+              ],
+              [
+                37.5547797,
+                55.8312858
+              ],
+              [
+                37.554828,
+                55.8312295
+              ],
+              [
+                37.5547341,
+                55.831204
+              ],
+              [
+                37.5547746,
+                55.8311569
+              ],
+              [
+                37.5544771,
+                55.8310763
+              ],
+              [
+                37.5544932,
+                55.8310575
+              ],
+              [
+                37.5545374,
+                55.8310061
+              ],
+              [
+                37.5542226,
+                55.8309208
+              ],
+              [
+                37.5540644,
+                55.8308779
+              ],
+              [
+                37.5540274,
+                55.8309209
+              ],
+              [
+                37.5539523,
+                55.8309006
+              ],
+              [
+                37.5538978,
+                55.8309641
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w27874394",
+        "osm_id": "27874394",
+        "osm_type": "way",
+        "osm_version": "16",
+        "osm_timestamp": "2024-01-30T12:23:17",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "146861708",
+        "building": "dormitory",
+        "building:levels": "4",
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.569867,
+                55.8357914
+              ],
+              [
+                37.5695621,
+                55.8362906
+              ],
+              [
+                37.5696785,
+                55.836313
+              ],
+              [
+                37.5694872,
+                55.8366264
+              ],
+              [
+                37.5696408,
+                55.8366559
+              ],
+              [
+                37.569601,
+                55.8367211
+              ],
+              [
+                37.5700133,
+                55.8368005
+              ],
+              [
+                37.5704081,
+                55.8368765
+              ],
+              [
+                37.5704436,
+                55.8368183
+              ],
+              [
+                37.5706329,
+                55.8368548
+              ],
+              [
+                37.5708674,
+                55.8364707
+              ],
+              [
+                37.5709516,
+                55.8364869
+              ],
+              [
+                37.5712103,
+                55.8360632
+              ],
+              [
+                37.5710334,
+                55.8360291
+              ],
+              [
+                37.5707623,
+                55.836473
+              ],
+              [
+                37.5706603,
+                55.8364534
+              ],
+              [
+                37.5704795,
+                55.8367495
+              ],
+              [
+                37.5700907,
+                55.8366746
+              ],
+              [
+                37.5697034,
+                55.8366001
+              ],
+              [
+                37.5698806,
+                55.8363099
+              ],
+              [
+                37.5697698,
+                55.8362886
+              ],
+              [
+                37.5700517,
+                55.835827
+              ],
+              [
+                37.569867,
+                55.8357914
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w27874463",
+        "osm_id": "27874463",
+        "osm_type": "way",
+        "osm_version": "16",
+        "osm_timestamp": "2024-01-30T12:23:17",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "146861708",
+        "building": "dormitory",
+        "building:levels": "4",
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5680057,
+                55.8353969
+              ],
+              [
+                37.5677456,
+                55.83582
+              ],
+              [
+                37.5678597,
+                55.8358421
+              ],
+              [
+                37.5676679,
+                55.8361541
+              ],
+              [
+                37.567742,
+                55.8361684
+              ],
+              [
+                37.5678208,
+                55.8361837
+              ],
+              [
+                37.5677832,
+                55.8362449
+              ],
+              [
+                37.5681893,
+                55.8363236
+              ],
+              [
+                37.568591,
+                55.8364015
+              ],
+              [
+                37.568625,
+                55.8363462
+              ],
+              [
+                37.5688126,
+                55.8363825
+              ],
+              [
+                37.5690253,
+                55.8360366
+              ],
+              [
+                37.56916,
+                55.8360627
+              ],
+              [
+                37.5694027,
+                55.8356679
+              ],
+              [
+                37.5691744,
+                55.8356237
+              ],
+              [
+                37.5689425,
+                55.8360009
+              ],
+              [
+                37.5688421,
+                55.8359814
+              ],
+              [
+                37.56866,
+                55.8362777
+              ],
+              [
+                37.5682684,
+                55.8362018
+              ],
+              [
+                37.5678839,
+                55.8361272
+              ],
+              [
+                37.5680627,
+                55.8358365
+              ],
+              [
+                37.5679566,
+                55.8358159
+              ],
+              [
+                37.5681047,
+                55.835575
+              ],
+              [
+                37.5682721,
+                55.8356074
+              ],
+              [
+                37.5683166,
+                55.835535
+              ],
+              [
+                37.5681476,
+                55.8355022
+              ],
+              [
+                37.5681903,
+                55.8354327
+              ],
+              [
+                37.5680057,
+                55.8353969
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w27874464",
+        "osm_id": "27874464",
+        "osm_type": "way",
+        "osm_version": "14",
+        "osm_timestamp": "2023-09-19T13:32:36",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "141469753",
+        "building": "dormitory",
+        "building:levels": "4",
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5661557,
+                55.8349744
+              ],
+              [
+                37.5658968,
+                55.8353977
+              ],
+              [
+                37.5660099,
+                55.8354195
+              ],
+              [
+                37.565819,
+                55.8357318
+              ],
+              [
+                37.5659713,
+                55.8357612
+              ],
+              [
+                37.5659336,
+                55.8358228
+              ],
+              [
+                37.5662993,
+                55.8358933
+              ],
+              [
+                37.566742,
+                55.8359787
+              ],
+              [
+                37.5667756,
+                55.8359238
+              ],
+              [
+                37.5669638,
+                55.8359601
+              ],
+              [
+                37.5671754,
+                55.8356141
+              ],
+              [
+                37.5673112,
+                55.8356403
+              ],
+              [
+                37.5675527,
+                55.8352453
+              ],
+              [
+                37.5673245,
+                55.8352012
+              ],
+              [
+                37.5670938,
+                55.8355785
+              ],
+              [
+                37.5669923,
+                55.8355589
+              ],
+              [
+                37.5668112,
+                55.835855
+              ],
+              [
+                37.5663768,
+                55.8357712
+              ],
+              [
+                37.5660348,
+                55.8357052
+              ],
+              [
+                37.5662129,
+                55.8354139
+              ],
+              [
+                37.5661016,
+                55.8353924
+              ],
+              [
+                37.5663028,
+                55.8350635
+              ],
+              [
+                37.566336,
+                55.8350092
+              ],
+              [
+                37.5661557,
+                55.8349744
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w27874465",
+        "osm_id": "27874465",
+        "osm_type": "way",
+        "osm_version": "17",
+        "osm_timestamp": "2023-09-19T13:32:36",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "141469753",
+        "building": "dormitory",
+        "building:levels": "4",
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5642336,
+                55.8346198
+              ],
+              [
+                37.563969,
+                55.8350399
+              ],
+              [
+                37.5640828,
+                55.8350625
+              ],
+              [
+                37.5638872,
+                55.835373
+              ],
+              [
+                37.5640421,
+                55.8354038
+              ],
+              [
+                37.564005,
+                55.8354628
+              ],
+              [
+                37.5643843,
+                55.835538
+              ],
+              [
+                37.5648108,
+                55.8356228
+              ],
+              [
+                37.5648468,
+                55.8355656
+              ],
+              [
+                37.5650312,
+                55.8356022
+              ],
+              [
+                37.565249,
+                55.8352565
+              ],
+              [
+                37.5653773,
+                55.835282
+              ],
+              [
+                37.5656144,
+                55.8349056
+              ],
+              [
+                37.5656252,
+                55.8348884
+              ],
+              [
+                37.565398,
+                55.8348433
+              ],
+              [
+                37.5651606,
+                55.8352202
+              ],
+              [
+                37.5650654,
+                55.8352013
+              ],
+              [
+                37.564878,
+                55.8354987
+              ],
+              [
+                37.5644615,
+                55.835416
+              ],
+              [
+                37.5641041,
+                55.835345
+              ],
+              [
+                37.5642856,
+                55.8350568
+              ],
+              [
+                37.5641664,
+                55.8350332
+              ],
+              [
+                37.5644233,
+                55.8346253
+              ],
+              [
+                37.5643131,
+                55.8346034
+              ],
+              [
+                37.5642516,
+                55.8345912
+              ],
+              [
+                37.5642336,
+                55.8346198
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791290",
+        "osm_id": "32791290",
+        "osm_type": "way",
+        "osm_version": "10",
+        "osm_timestamp": "2024-01-30T12:23:17",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "146861708",
+        "building": "dormitory",
+        "building:levels": "15",
+        "mulipoligon_id": 8,
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5700212,
+                55.8355759
+              ],
+              [
+                37.570273,
+                55.8356256
+              ],
+              [
+                37.5704516,
+                55.8353397
+              ],
+              [
+                37.5705503,
+                55.8353592
+              ],
+              [
+                37.5706475,
+                55.8352035
+              ],
+              [
+                37.5704176,
+                55.8351582
+              ],
+              [
+                37.5703374,
+                55.8352865
+              ],
+              [
+                37.570217,
+                55.8352628
+              ],
+              [
+                37.5700212,
+                55.8355759
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791291",
+        "osm_id": "32791291",
+        "osm_type": "way",
+        "osm_version": "15",
+        "osm_timestamp": "2024-01-30T12:23:17",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "146861708",
+        "building": "dormitory",
+        "building:levels": "15",
+        "mulipoligon_id": 8,
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5712068,
+                55.8353819
+              ],
+              [
+                37.5714578,
+                55.8354299
+              ],
+              [
+                37.5715304,
+                55.8353102
+              ],
+              [
+                37.571622,
+                55.8351592
+              ],
+              [
+                37.5716712,
+                55.8351686
+              ],
+              [
+                37.5717235,
+                55.8351786
+              ],
+              [
+                37.5718114,
+                55.8350337
+              ],
+              [
+                37.571543,
+                55.8349824
+              ],
+              [
+                37.5714522,
+                55.8351322
+              ],
+              [
+                37.5713679,
+                55.8351161
+              ],
+              [
+                37.5712068,
+                55.8353819
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791292",
+        "osm_id": "32791292",
+        "osm_type": "way",
+        "osm_version": "9",
+        "osm_timestamp": "2023-09-19T13:32:36",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "141469753",
+        "building": "dormitory",
+        "building:levels": "22",
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5682177,
+                55.8349252
+              ],
+              [
+                37.5683002,
+                55.8349407
+              ],
+              [
+                37.5682723,
+                55.8349875
+              ],
+              [
+                37.5684051,
+                55.8350124
+              ],
+              [
+                37.5684319,
+                55.8349674
+              ],
+              [
+                37.5685093,
+                55.8349819
+              ],
+              [
+                37.5685772,
+                55.8348679
+              ],
+              [
+                37.5687231,
+                55.8348953
+              ],
+              [
+                37.5688068,
+                55.8347547
+              ],
+              [
+                37.5685733,
+                55.8347108
+              ],
+              [
+                37.5684484,
+                55.8346874
+              ],
+              [
+                37.5684077,
+                55.8347558
+              ],
+              [
+                37.5683275,
+                55.8347408
+              ],
+              [
+                37.5682177,
+                55.8349252
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791293",
+        "osm_id": "32791293",
+        "osm_type": "way",
+        "osm_version": "11",
+        "osm_timestamp": "2024-01-30T12:23:17",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "146861708",
+        "building": "dormitory",
+        "building:levels": "22",
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5691241,
+                55.8350142
+              ],
+              [
+                37.5693455,
+                55.8350528
+              ],
+              [
+                37.5694554,
+                55.8350733
+              ],
+              [
+                37.5695694,
+                55.8350929
+              ],
+              [
+                37.5695834,
+                55.835068
+              ],
+              [
+                37.5697629,
+                55.8350997
+              ],
+              [
+                37.5699499,
+                55.8347662
+              ],
+              [
+                37.5698352,
+                55.8347459
+              ],
+              [
+                37.5698591,
+                55.8347033
+              ],
+              [
+                37.5696451,
+                55.8346655
+              ],
+              [
+                37.5695249,
+                55.83488
+              ],
+              [
+                37.5693726,
+                55.8348531
+              ],
+              [
+                37.569287,
+                55.834838
+              ],
+              [
+                37.5692599,
+                55.8348863
+              ],
+              [
+                37.5692015,
+                55.834876
+              ],
+              [
+                37.5691241,
+                55.8350142
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791301",
+        "osm_id": "32791301",
+        "osm_type": "way",
+        "osm_version": "7",
+        "osm_timestamp": "2024-01-30T12:23:17",
+        "osm_uid": "18826385",
+        "osm_user": "",
+        "osm_changeset": "146861708",
+        "building": "dormitory",
+        "building:levels": "2",
+        "mulipoligon_id": 8,
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.570563,
+                55.83545
+              ],
+              [
+                37.5708046,
+                55.8354962
+              ],
+              [
+                37.5713804,
+                55.8356063
+              ],
+              [
+                37.5714701,
+                55.8354583
+              ],
+              [
+                37.5714437,
+                55.8354533
+              ],
+              [
+                37.5711926,
+                55.8354053
+              ],
+              [
+                37.5706527,
+                55.8353021
+              ],
+              [
+                37.570563,
+                55.83545
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791720",
+        "osm_id": "32791720",
+        "osm_type": "way",
+        "osm_version": "8",
+        "osm_timestamp": "2023-09-19T13:32:36",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "141469753",
+        "building": "dormitory",
+        "building:levels": "16",
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5545491,
+                55.8322835
+              ],
+              [
+                37.5546443,
+                55.8323121
+              ],
+              [
+                37.5548593,
+                55.8320858
+              ],
+              [
+                37.554887,
+                55.8320567
+              ],
+              [
+                37.5549936,
+                55.8320886
+              ],
+              [
+                37.5551021,
+                55.8319744
+              ],
+              [
+                37.5551706,
+                55.8319023
+              ],
+              [
+                37.5550619,
+                55.8318697
+              ],
+              [
+                37.5550817,
+                55.8318489
+              ],
+              [
+                37.5549903,
+                55.8318215
+              ],
+              [
+                37.5548711,
+                55.8319469
+              ],
+              [
+                37.5547682,
+                55.831916
+              ],
+              [
+                37.55447,
+                55.8322297
+              ],
+              [
+                37.5545713,
+                55.8322601
+              ],
+              [
+                37.5545491,
+                55.8322835
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32792023",
+        "osm_id": "32792023",
+        "osm_type": "way",
+        "osm_version": "8",
+        "osm_timestamp": "2023-09-19T13:32:36",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "141469753",
+        "building": "dormitory",
+        "building:levels": "16",
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5555577,
+                55.8320228
+              ],
+              [
+                37.5555915,
+                55.8320328
+              ],
+              [
+                37.5556371,
+                55.8320463
+              ],
+              [
+                37.5556127,
+                55.8320723
+              ],
+              [
+                37.5557295,
+                55.832107
+              ],
+              [
+                37.5559809,
+                55.8318397
+              ],
+              [
+                37.5560995,
+                55.8318749
+              ],
+              [
+                37.5561976,
+                55.8317706
+              ],
+              [
+                37.5562755,
+                55.8316878
+              ],
+              [
+                37.5561725,
+                55.8316573
+              ],
+              [
+                37.5561997,
+                55.8316284
+              ],
+              [
+                37.5560949,
+                55.8315973
+              ],
+              [
+                37.5559656,
+                55.8317348
+              ],
+              [
+                37.5558585,
+                55.831703
+              ],
+              [
+                37.5555577,
+                55.8320228
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w654425059",
+        "osm_id": "654425059",
+        "osm_type": "way",
+        "osm_version": "5",
+        "osm_timestamp": "2023-09-19T13:32:36",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "141469753",
+        "building": "dormitory",
+        "building:levels": "1",
+        "mulipoligon_id": 5,
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5565377,
+                55.8367136
+              ],
+              [
+                37.5561234,
+                55.8366085
+              ],
+              [
+                37.5560616,
+                55.8366853
+              ],
+              [
+                37.5561724,
+                55.8367134
+              ],
+              [
+                37.5561333,
+                55.836762
+              ],
+              [
+                37.5563252,
+                55.8368107
+              ],
+              [
+                37.5563643,
+                55.8367622
+              ],
+              [
+                37.5564758,
+                55.8367905
+              ],
+              [
+                37.5565377,
+                55.8367136
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w654425060",
+        "osm_id": "654425060",
+        "osm_type": "way",
+        "osm_version": "3",
+        "osm_timestamp": "2020-08-24T11:18:20",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "89853976",
+        "building": "dormitory",
+        "building:levels": "5",
+        "mulipoligon_id": 5,
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5562468,
+                55.8364551
+              ],
+              [
+                37.556023,
+                55.8363983
+              ],
+              [
+                37.5557548,
+                55.8367318
+              ],
+              [
+                37.5559786,
+                55.8367885
+              ],
+              [
+                37.5560616,
+                55.8366853
+              ],
+              [
+                37.5561234,
+                55.8366085
+              ],
+              [
+                37.5562468,
+                55.8364551
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w654425061",
+        "osm_id": "654425061",
+        "osm_type": "way",
+        "osm_version": "3",
+        "osm_timestamp": "2020-08-24T11:18:20",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "89853976",
+        "building": "dormitory",
+        "building:levels": "5",
+        "mulipoligon_id": 5,
+        "name": null,
+        "title": null,
+        "type": "dormitory",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "dormitory_type": null,
+        "capacity": null,
+        "rooms_total": null,
+        "room_types": [],
+        "blocks": [],
+        "for_students": [],
+        "faculties_priority": [],
+        "facilities": [],
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_study_rooms": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_security": false,
+        "has_laundry": false,
+        "administration_office": null,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "administration_hours": null,
+        "check_in_hours": null,
+        "monthly_rent": null,
+        "deposit_required": false,
+        "utilities_included": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5569172,
+                55.8366107
+              ],
+              [
+                37.5566697,
+                55.8365495
+              ],
+              [
+                37.5565377,
+                55.8367136
+              ],
+              [
+                37.5564758,
+                55.8367905
+              ],
+              [
+                37.5563971,
+                55.8368883
+              ],
+              [
+                37.5566418,
+                55.8369504
+              ],
+              [
+                37.5569172,
+                55.8366107
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

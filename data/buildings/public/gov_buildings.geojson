@@ -1,0 +1,105 @@
+{
+  "type": "FeatureCollection",
+  "name": "gov_buildings",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r9385357",
+        "osm_id": "9385357",
+        "osm_type": "relation",
+        "osm_version": "37",
+        "osm_timestamp": "2024-08-29T18:20:04Z",
+        "osm_uid": "100812",
+        "osm_user": "Zkir",
+        "osm_changeset": "155942288",
+        "building": "government",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "government_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "government_level": null,
+        "department": null,
+        "jurisdiction": null,
+        "services": [],
+        "departments": [],
+        "public_services": [],
+        "offices": null,
+        "reception_rooms": null,
+        "meeting_halls": null,
+        "archive": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_wifi": false,
+        "has_parking": false,
+        "has_accessibility": false,
+        "has_security": false,
+        "phone": null,
+        "email": null,
+        "website": null,
+        "working_hours": null,
+        "reception_hours": null,
+        "access_level": null,
+        "document_requirements": null,
+        "appointment_required": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5505845,
+                55.8325902
+              ],
+              [
+                37.5500894,
+                55.8324772
+              ],
+              [
+                37.549956,
+                55.8326616
+              ],
+              [
+                37.5500973,
+                55.8326939
+              ],
+              [
+                37.5501445,
+                55.8326287
+              ],
+              [
+                37.5504055,
+                55.832683
+              ],
+              [
+                37.5503898,
+                55.8327046
+              ],
+              [
+                37.5504812,
+                55.8327255
+              ],
+              [
+                37.5505845,
+                55.8325902
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "version": "1.0.0",
+  "timestamp": "2025-01-05T12:00:00.000Z",
+  "description": "Глобальные стили для интерактивной карты университета",
+  "styles": {
+    "main_building": {
+      "fillColor": "#667eea",
+      "fillOpacity": 0.85,
+      "strokeColor": "#4834d4",
+      "strokeWidth": 3,
+      "strokeOpacity": 1
+    },
+    "university_buildings": {
+      "fillColor": "#3742fa",
+      "fillOpacity": 0.75,
+      "strokeColor": "#2f3542",
+      "strokeWidth": 2,
+      "strokeOpacity": 1
+    },
+    "dormitory_buildings": {
+      "fillColor": "#2ed573",
+      "fillOpacity": 0.7,
+      "strokeColor": "#1e824c",
+      "strokeWidth": 2,
+      "strokeOpacity": 1
+    },
+    "lab_buildings": {
+      "fillColor": "#ff4757",
+      "fillOpacity": 0.7,
+      "strokeColor": "#c44569",
+      "strokeWidth": 2,
+      "strokeOpacity": 1
+    },
+    "library_buildings": {
+      "fillColor": "#ffa502",
+      "fillOpacity": 0.7,
+      "strokeColor": "#ff6348",
+      "strokeWidth": 2,
+      "strokeOpacity": 1
+    },
+    "sport_buildings": {
+      "fillColor": "#ff6b6b",
+      "fillOpacity": 0.7,
+      "strokeColor": "#ee5a52",
+      "strokeWidth": 2,
+      "strokeOpacity": 1
+    },
+    "buildings_in_university": {
+      "fillColor": "#a55eea",
+      "fillOpacity": 0.7,
+      "strokeColor": "#8854d0",
+      "strokeWidth": 2,
+      "strokeOpacity": 1
+    },
+    "museum_buildings": {
+      "fillColor": "#fd79a8",
+      "fillOpacity": 0.7,
+      "strokeColor": "#e84393",
+      "strokeWidth": 2,
+      "strokeOpacity": 1
+    },
+    "cafe_buildings": {
+      "fillColor": "#fdcb6e",
+      "fillOpacity": 0.7,
+      "strokeColor": "#e17055",
+      "strokeWidth": 2,
+      "strokeOpacity": 1
+    },
+    "gov_buildings": {
+      "fillColor": "#6c5ce7",
+      "fillOpacity": 0.7,
+      "strokeColor": "#5f3dc4",
+      "strokeWidth": 2,
+      "strokeOpacity": 1
+    },
+    "metro_stations": {
+      "fillColor": "#00b894",
+      "fillOpacity": 0.8,
+      "strokeColor": "#00a085",
+      "strokeWidth": 3,
+      "strokeOpacity": 1
+    },
+    "metro_entrance": {
+      "fillColor": "#00cec9",
+      "fillOpacity": 0.8,
+      "strokeColor": "#00b894",
+      "strokeWidth": 2,
+      "strokeOpacity": 1
+    },
+    "metro_platforms": {
+      "fillColor": "#55a3ff",
+      "fillOpacity": 0.7,
+      "strokeColor": "#3867d6",
+      "strokeWidth": 2,
+      "strokeOpacity": 1
+    },
+    "tram_stops": {
+      "fillColor": "#f39c12",
+      "fillOpacity": 0.8,
+      "strokeColor": "#d35400",
+      "strokeWidth": 2,
+      "strokeOpacity": 1
+    },
+    "bus_stops": {
+      "fillColor": "#e74c3c",
+      "fillOpacity": 0.8,
+      "strokeColor": "#c0392b",
+      "strokeWidth": 2,
+      "strokeOpacity": 1
+    },
+    "roads": {
+      "strokeColor": "#34495e",
+      "strokeWidth": 1,
+      "strokeOpacity": 0.6
+    },
+    "railways": {
+      "strokeColor": "#2c3e50",
+      "strokeWidth": 2,
+      "strokeOpacity": 0.8
+    },
+    "nature_layers": {
+      "fillColor": "#27ae60",
+      "fillOpacity": 0.3,
+      "strokeColor": "#229954",
+      "strokeWidth": 1,
+      "strokeOpacity": 0.8
+    },
+    "other_buildings": {
+      "fillColor": "#95a5a6",
+      "fillOpacity": 0.4,
+      "strokeColor": "#7f8c8d",
+      "strokeWidth": 1,
+      "strokeOpacity": 0.6
+    },
+    "buildings_for_map": {
+      "fillColor": "#bdc3c7",
+      "fillOpacity": 0.3,
+      "strokeColor": "#95a5a6",
+      "strokeWidth": 1,
+      "strokeOpacity": 0.5
+    }
+  },
+  "themes": {
+    "default": {
+      "name": "Стандартная тема",
+      "description": "Цветовая схема по умолчанию",
+      "primary": "#667eea",
+      "secondary": "#764ba2",
+      "accent": "#f39c12"
+    },
+    "dark": {
+      "name": "Темная тема",
+      "description": "Темная цветовая схема",
+      "primary": "#2c3e50",
+      "secondary": "#34495e",
+      "accent": "#e74c3c"
+    },
+    "nature": {
+      "name": "Природная тема",
+      "description": "Зеленая цветовая схема",
+      "primary": "#27ae60",
+      "secondary": "#2ecc71",
+      "accent": "#f39c12"
+    }
+  },
+  "highlightStyles": {
+    "hover": {
+      "fillColor": "#ffff00",
+      "fillOpacity": 0.6,
+      "strokeColor": "#ffd700",
+      "strokeWidth": 3
+    },
+    "selected": {
+      "fillColor": "#ff0000",
+      "fillOpacity": 0.6,
+      "strokeColor": "#dc143c",
+      "strokeWidth": 4
+    },
+    "search": {
+      "fillColor": "#00ffff",
+      "fillOpacity": 0.7,
+      "strokeColor": "#008b8b",
+      "strokeWidth": 3
+    }
+  }
+}

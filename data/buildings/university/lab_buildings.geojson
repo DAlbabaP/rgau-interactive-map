@@ -1,0 +1,1379 @@
+{
+  "type": "FeatureCollection",
+  "name": "lab_buildings",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r107346",
+        "osm_id": "107346",
+        "osm_type": "relation",
+        "osm_version": "8",
+        "osm_timestamp": "2023-08-25T13:43:31Z",
+        "osm_uid": "11978982",
+        "osm_user": "mappinglander",
+        "osm_changeset": "140373675",
+        "building": "laboratory",
+        "building:levels": "3",
+        "name": null,
+        "title": null,
+        "type": "laboratory_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "research_areas": [],
+        "laboratory_types": [],
+        "equipment_categories": [],
+        "safety_levels": [],
+        "has_clean_rooms": false,
+        "has_radiation_areas": false,
+        "radiation_permit": null,
+        "laboratories_count": null,
+        "research_groups": null,
+        "max_occupancy": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_emergency_systems": false,
+        "access_level": null,
+        "requires_clearance": false,
+        "working_hours": null,
+        "emergency_contact": null,
+        "phone": null,
+        "email": null,
+        "head_of_laboratory": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5571568,
+                55.827616
+              ],
+              [
+                37.5576224,
+                55.8277367
+              ],
+              [
+                37.5578643,
+                55.8274424
+              ],
+              [
+                37.5583312,
+                55.8268745
+              ],
+              [
+                37.5585549,
+                55.8266023
+              ],
+              [
+                37.5580942,
+                55.8264828
+              ],
+              [
+                37.557634,
+                55.8263635
+              ],
+              [
+                37.5571677,
+                55.8269307
+              ],
+              [
+                37.5567014,
+                55.8274979
+              ],
+              [
+                37.5571568,
+                55.827616
+              ]
+            ],
+            [
+              [
+                37.5577405,
+                55.826557
+              ],
+              [
+                37.5582362,
+                55.8266856
+              ],
+              [
+                37.5581249,
+                55.8268209
+              ],
+              [
+                37.5580111,
+                55.8269594
+              ],
+              [
+                37.5575155,
+                55.8268308
+              ],
+              [
+                37.5577405,
+                55.826557
+              ]
+            ],
+            [
+              [
+                37.5572801,
+                55.8271243
+              ],
+              [
+                37.5577757,
+                55.8272529
+              ],
+              [
+                37.5576629,
+                55.8273902
+              ],
+              [
+                37.5575507,
+                55.8275267
+              ],
+              [
+                37.557055,
+                55.8273981
+              ],
+              [
+                37.5572801,
+                55.8271243
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r11260109",
+        "osm_id": "11260109",
+        "osm_type": "relation",
+        "osm_version": "1",
+        "osm_timestamp": "2020-07-01T04:31:23Z",
+        "osm_uid": "10129333",
+        "osm_user": "solenoid jam",
+        "osm_changeset": "87374829",
+        "building": "laboratory",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "laboratory_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "research_areas": [],
+        "laboratory_types": [],
+        "equipment_categories": [],
+        "safety_levels": [],
+        "has_clean_rooms": false,
+        "has_radiation_areas": false,
+        "radiation_permit": null,
+        "laboratories_count": null,
+        "research_groups": null,
+        "max_occupancy": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_emergency_systems": false,
+        "access_level": null,
+        "requires_clearance": false,
+        "working_hours": null,
+        "emergency_contact": null,
+        "phone": null,
+        "email": null,
+        "head_of_laboratory": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5477337,
+                55.8274373
+              ],
+              [
+                37.5476768,
+                55.8274077
+              ],
+              [
+                37.5476156,
+                55.8274449
+              ],
+              [
+                37.5473748,
+                55.8273197
+              ],
+              [
+                37.5472801,
+                55.8273772
+              ],
+              [
+                37.5475265,
+                55.8275053
+              ],
+              [
+                37.5475923,
+                55.8274653
+              ],
+              [
+                37.5478224,
+                55.8275849
+              ],
+              [
+                37.5479125,
+                55.8275302
+              ],
+              [
+                37.5477337,
+                55.8274373
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w97094274",
+        "osm_id": "97094274",
+        "osm_type": "way",
+        "osm_version": "3",
+        "osm_timestamp": "2020-06-30T15:32:45",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "87355902",
+        "building": "laboratory",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "laboratory_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "research_areas": [],
+        "laboratory_types": [],
+        "equipment_categories": [],
+        "safety_levels": [],
+        "has_clean_rooms": false,
+        "has_radiation_areas": false,
+        "radiation_permit": null,
+        "laboratories_count": null,
+        "research_groups": null,
+        "max_occupancy": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_emergency_systems": false,
+        "access_level": null,
+        "requires_clearance": false,
+        "working_hours": null,
+        "emergency_contact": null,
+        "phone": null,
+        "email": null,
+        "head_of_laboratory": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5469391,
+                55.8272
+              ],
+              [
+                37.5470837,
+                55.8272752
+              ],
+              [
+                37.5472362,
+                55.8273544
+              ],
+              [
+                37.5473299,
+                55.8272976
+              ],
+              [
+                37.5470328,
+                55.8271432
+              ],
+              [
+                37.5469391,
+                55.8272
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w242462320",
+        "osm_id": "242462320",
+        "osm_type": "way",
+        "osm_version": "2",
+        "osm_timestamp": "2022-12-09T09:05:53",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "129891651",
+        "building": "laboratory",
+        "building:levels": "1",
+        "mulipoligon_id": 6,
+        "name": null,
+        "title": null,
+        "type": "laboratory_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "research_areas": [],
+        "laboratory_types": [],
+        "equipment_categories": [],
+        "safety_levels": [],
+        "has_clean_rooms": false,
+        "has_radiation_areas": false,
+        "radiation_permit": null,
+        "laboratories_count": null,
+        "research_groups": null,
+        "max_occupancy": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_emergency_systems": false,
+        "access_level": null,
+        "requires_clearance": false,
+        "working_hours": null,
+        "emergency_contact": null,
+        "phone": null,
+        "email": null,
+        "head_of_laboratory": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5479692,
+                55.8341132
+              ],
+              [
+                37.5483826,
+                55.8341975
+              ],
+              [
+                37.5484785,
+                55.8340492
+              ],
+              [
+                37.5480651,
+                55.8339649
+              ],
+              [
+                37.5479692,
+                55.8341132
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w279461098",
+        "osm_id": "279461098",
+        "osm_type": "way",
+        "osm_version": "2",
+        "osm_timestamp": "2015-08-25T10:47:06",
+        "osm_uid": "2672618",
+        "osm_user": "",
+        "osm_changeset": "33567755",
+        "building": "laboratory",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "laboratory_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "research_areas": [],
+        "laboratory_types": [],
+        "equipment_categories": [],
+        "safety_levels": [],
+        "has_clean_rooms": false,
+        "has_radiation_areas": false,
+        "radiation_permit": null,
+        "laboratories_count": null,
+        "research_groups": null,
+        "max_occupancy": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_emergency_systems": false,
+        "access_level": null,
+        "requires_clearance": false,
+        "working_hours": null,
+        "emergency_contact": null,
+        "phone": null,
+        "email": null,
+        "head_of_laboratory": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.558772,
+                55.8319046
+              ],
+              [
+                37.5589737,
+                55.8319414
+              ],
+              [
+                37.5592541,
+                55.8314564
+              ],
+              [
+                37.5590525,
+                55.8314196
+              ],
+              [
+                37.558772,
+                55.8319046
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w367416193",
+        "osm_id": "367416193",
+        "osm_type": "way",
+        "osm_version": "3",
+        "osm_timestamp": "2020-12-16T13:35:53",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "95945104",
+        "building": "laboratory",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "laboratory_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "research_areas": [],
+        "laboratory_types": [],
+        "equipment_categories": [],
+        "safety_levels": [],
+        "has_clean_rooms": false,
+        "has_radiation_areas": false,
+        "radiation_permit": null,
+        "laboratories_count": null,
+        "research_groups": null,
+        "max_occupancy": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_emergency_systems": false,
+        "access_level": null,
+        "requires_clearance": false,
+        "working_hours": null,
+        "emergency_contact": null,
+        "phone": null,
+        "email": null,
+        "head_of_laboratory": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5502666,
+                55.826385
+              ],
+              [
+                37.5503031,
+                55.8263496
+              ],
+              [
+                37.5508008,
+                55.8257734
+              ],
+              [
+                37.5506184,
+                55.825721
+              ],
+              [
+                37.550109,
+                55.8262955
+              ],
+              [
+                37.5500243,
+                55.8262719
+              ],
+              [
+                37.5505211,
+                55.8256936
+              ],
+              [
+                37.5503224,
+                55.825639
+              ],
+              [
+                37.5498231,
+                55.8262158
+              ],
+              [
+                37.549737,
+                55.8261916
+              ],
+              [
+                37.5502413,
+                55.8256162
+              ],
+              [
+                37.5500467,
+                55.8255638
+              ],
+              [
+                37.5495393,
+                55.8261363
+              ],
+              [
+                37.5494517,
+                55.8261118
+              ],
+              [
+                37.5499575,
+                55.8255365
+              ],
+              [
+                37.5497467,
+                55.8254772
+              ],
+              [
+                37.5492419,
+                55.8260535
+              ],
+              [
+                37.5491608,
+                55.8260307
+              ],
+              [
+                37.5496616,
+                55.8254545
+              ],
+              [
+                37.5494629,
+                55.8253975
+              ],
+              [
+                37.5489611,
+                55.8259749
+              ],
+              [
+                37.5488815,
+                55.825953
+              ],
+              [
+                37.5493818,
+                55.8253747
+              ],
+              [
+                37.5491791,
+                55.8253178
+              ],
+              [
+                37.5486763,
+                55.8258963
+              ],
+              [
+                37.5486129,
+                55.8258789
+              ],
+              [
+                37.5491102,
+                55.8253018
+              ],
+              [
+                37.548867,
+                55.8252335
+              ],
+              [
+                37.5483555,
+                55.825808
+              ],
+              [
+                37.5482988,
+                55.8257923
+              ],
+              [
+                37.5488061,
+                55.8252153
+              ],
+              [
+                37.5486115,
+                55.8251606
+              ],
+              [
+                37.5481016,
+                55.825738
+              ],
+              [
+                37.5480611,
+                55.825779
+              ],
+              [
+                37.5489085,
+                55.8260114
+              ],
+              [
+                37.5488923,
+                55.8260308
+              ],
+              [
+                37.548872,
+                55.8260548
+              ],
+              [
+                37.5490793,
+                55.8261148
+              ],
+              [
+                37.5490707,
+                55.8261243
+              ],
+              [
+                37.5490636,
+                55.826132
+              ],
+              [
+                37.5490571,
+                55.8261391
+              ],
+              [
+                37.5490485,
+                55.8261482
+              ],
+              [
+                37.5490849,
+                55.826159
+              ],
+              [
+                37.5490941,
+                55.8261491
+              ],
+              [
+                37.5491016,
+                55.8261408
+              ],
+              [
+                37.5491087,
+                55.8261334
+              ],
+              [
+                37.5491163,
+                55.8261254
+              ],
+              [
+                37.5493363,
+                55.8261892
+              ],
+              [
+                37.5493829,
+                55.8262028
+              ],
+              [
+                37.5494299,
+                55.8261532
+              ],
+              [
+                37.5502666,
+                55.826385
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w592390880",
+        "osm_id": "592390880",
+        "osm_type": "way",
+        "osm_version": "6",
+        "osm_timestamp": "2020-07-26T13:42:58",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "88521438",
+        "building": "laboratory",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "laboratory_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "research_areas": [],
+        "laboratory_types": [],
+        "equipment_categories": [],
+        "safety_levels": [],
+        "has_clean_rooms": false,
+        "has_radiation_areas": false,
+        "radiation_permit": null,
+        "laboratories_count": null,
+        "research_groups": null,
+        "max_occupancy": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_emergency_systems": false,
+        "access_level": null,
+        "requires_clearance": false,
+        "working_hours": null,
+        "emergency_contact": null,
+        "phone": null,
+        "email": null,
+        "head_of_laboratory": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5435667,
+                55.8278808
+              ],
+              [
+                37.5447301,
+                55.8281317
+              ],
+              [
+                37.5449218,
+                55.8278513
+              ],
+              [
+                37.5450038,
+                55.827869
+              ],
+              [
+                37.5447962,
+                55.8281727
+              ],
+              [
+                37.5450724,
+                55.8282322
+              ],
+              [
+                37.5455562,
+                55.8275245
+              ],
+              [
+                37.5454906,
+                55.8275104
+              ],
+              [
+                37.5454683,
+                55.8275056
+              ],
+              [
+                37.545434,
+                55.8274982
+              ],
+              [
+                37.54528,
+                55.827465
+              ],
+              [
+                37.5450442,
+                55.82781
+              ],
+              [
+                37.5449622,
+                55.8277923
+              ],
+              [
+                37.5451601,
+                55.8275027
+              ],
+              [
+                37.5449839,
+                55.8274647
+              ],
+              [
+                37.5449097,
+                55.8274487
+              ],
+              [
+                37.5446009,
+                55.8273821
+              ],
+              [
+                37.5445474,
+                55.8273706
+              ],
+              [
+                37.5442236,
+                55.8273007
+              ],
+              [
+                37.5441526,
+                55.8272854
+              ],
+              [
+                37.5439967,
+                55.8272518
+              ],
+              [
+                37.5438116,
+                55.8275225
+              ],
+              [
+                37.5437609,
+                55.8275967
+              ],
+              [
+                37.5435667,
+                55.8278808
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w821508449",
+        "osm_id": "821508449",
+        "osm_type": "way",
+        "osm_version": "1",
+        "osm_timestamp": "2020-06-30T15:32:45",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "87355902",
+        "building": "laboratory",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "laboratory_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "research_areas": [],
+        "laboratory_types": [],
+        "equipment_categories": [],
+        "safety_levels": [],
+        "has_clean_rooms": false,
+        "has_radiation_areas": false,
+        "radiation_permit": null,
+        "laboratories_count": null,
+        "research_groups": null,
+        "max_occupancy": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_emergency_systems": false,
+        "access_level": null,
+        "requires_clearance": false,
+        "working_hours": null,
+        "emergency_contact": null,
+        "phone": null,
+        "email": null,
+        "head_of_laboratory": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5488394,
+                55.8270555
+              ],
+              [
+                37.5495534,
+                55.8272538
+              ],
+              [
+                37.5496281,
+                55.827169
+              ],
+              [
+                37.5489141,
+                55.8269707
+              ],
+              [
+                37.5488394,
+                55.8270555
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w821508450",
+        "osm_id": "821508450",
+        "osm_type": "way",
+        "osm_version": "1",
+        "osm_timestamp": "2020-06-30T15:32:45",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "87355902",
+        "building": "laboratory",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "laboratory_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "research_areas": [],
+        "laboratory_types": [],
+        "equipment_categories": [],
+        "safety_levels": [],
+        "has_clean_rooms": false,
+        "has_radiation_areas": false,
+        "radiation_permit": null,
+        "laboratories_count": null,
+        "research_groups": null,
+        "max_occupancy": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_emergency_systems": false,
+        "access_level": null,
+        "requires_clearance": false,
+        "working_hours": null,
+        "emergency_contact": null,
+        "phone": null,
+        "email": null,
+        "head_of_laboratory": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5487422,
+                55.827164
+              ],
+              [
+                37.5494561,
+                55.8273623
+              ],
+              [
+                37.5495308,
+                55.8272775
+              ],
+              [
+                37.5488169,
+                55.8270791
+              ],
+              [
+                37.5487422,
+                55.827164
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w821508451",
+        "osm_id": "821508451",
+        "osm_type": "way",
+        "osm_version": "1",
+        "osm_timestamp": "2020-06-30T15:32:45",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "87355902",
+        "building": "laboratory",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "laboratory_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "research_areas": [],
+        "laboratory_types": [],
+        "equipment_categories": [],
+        "safety_levels": [],
+        "has_clean_rooms": false,
+        "has_radiation_areas": false,
+        "radiation_permit": null,
+        "laboratories_count": null,
+        "research_groups": null,
+        "max_occupancy": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_emergency_systems": false,
+        "access_level": null,
+        "requires_clearance": false,
+        "working_hours": null,
+        "emergency_contact": null,
+        "phone": null,
+        "email": null,
+        "head_of_laboratory": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5491408,
+                55.827696
+              ],
+              [
+                37.5492126,
+                55.8276187
+              ],
+              [
+                37.5483732,
+                55.8273725
+              ],
+              [
+                37.5483014,
+                55.8274498
+              ],
+              [
+                37.5491408,
+                55.827696
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w821508452",
+        "osm_id": "821508452",
+        "osm_type": "way",
+        "osm_version": "1",
+        "osm_timestamp": "2020-06-30T15:32:45",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "87355902",
+        "building": "laboratory",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "laboratory_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "research_areas": [],
+        "laboratory_types": [],
+        "equipment_categories": [],
+        "safety_levels": [],
+        "has_clean_rooms": false,
+        "has_radiation_areas": false,
+        "radiation_permit": null,
+        "laboratories_count": null,
+        "research_groups": null,
+        "max_occupancy": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_emergency_systems": false,
+        "access_level": null,
+        "requires_clearance": false,
+        "working_hours": null,
+        "emergency_contact": null,
+        "phone": null,
+        "email": null,
+        "head_of_laboratory": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5490689,
+                55.8277732
+              ],
+              [
+                37.5491408,
+                55.827696
+              ],
+              [
+                37.5483014,
+                55.8274498
+              ],
+              [
+                37.5482296,
+                55.8275271
+              ],
+              [
+                37.5490689,
+                55.8277732
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w821508457",
+        "osm_id": "821508457",
+        "osm_type": "way",
+        "osm_version": "1",
+        "osm_timestamp": "2020-06-30T15:32:45",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "87355902",
+        "building": "laboratory",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "laboratory_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "research_areas": [],
+        "laboratory_types": [],
+        "equipment_categories": [],
+        "safety_levels": [],
+        "has_clean_rooms": false,
+        "has_radiation_areas": false,
+        "radiation_permit": null,
+        "laboratories_count": null,
+        "research_groups": null,
+        "max_occupancy": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_emergency_systems": false,
+        "access_level": null,
+        "requires_clearance": false,
+        "working_hours": null,
+        "emergency_contact": null,
+        "phone": null,
+        "email": null,
+        "head_of_laboratory": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5470328,
+                55.8271432
+              ],
+              [
+                37.5468776,
+                55.8270625
+              ],
+              [
+                37.5467839,
+                55.8271193
+              ],
+              [
+                37.5469391,
+                55.8272
+              ],
+              [
+                37.5470328,
+                55.8271432
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w242462321",
+        "osm_id": "242462321",
+        "osm_type": "way",
+        "osm_version": "2",
+        "osm_timestamp": "2022-12-09T09:05:53",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "129891651",
+        "building": "laboratory",
+        "building:levels": "1",
+        "mulipoligon_id": 6,
+        "name": null,
+        "title": null,
+        "type": "laboratory_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "research_areas": [],
+        "laboratory_types": [],
+        "equipment_categories": [],
+        "safety_levels": [],
+        "has_clean_rooms": false,
+        "has_radiation_areas": false,
+        "radiation_permit": null,
+        "laboratories_count": null,
+        "research_groups": null,
+        "max_occupancy": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_emergency_systems": false,
+        "access_level": null,
+        "requires_clearance": false,
+        "working_hours": null,
+        "emergency_contact": null,
+        "phone": null,
+        "email": null,
+        "head_of_laboratory": null,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5473495,
+                55.8340125
+              ],
+              [
+                37.5479545,
+                55.8341359
+              ],
+              [
+                37.5479692,
+                55.8341132
+              ],
+              [
+                37.5480651,
+                55.8339649
+              ],
+              [
+                37.5474601,
+                55.8338415
+              ],
+              [
+                37.5474023,
+                55.8339308
+              ],
+              [
+                37.5473495,
+                55.8340125
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

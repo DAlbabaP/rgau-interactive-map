@@ -1,0 +1,821 @@
+/* =====================================
+   СТИЛИ РЕЖИМА РАЗРАБОТКИ
+   ===================================== */
+
+/* =====================================
+   ПАНЕЛЬ РАЗРАБОТЧИКА
+   ===================================== */
+
+#dev-panel {
+    background: linear-gradient(180deg, #2c3e50 0%, #34495e 100%);
+    color: #ecf0f1;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#dev-panel.show {
+    transform: translateX(0);
+}
+
+#dev-panel .panel-header {
+    background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#dev-panel .panel-header h3 {
+    color: white;
+}
+
+#dev-panel .control-btn {
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#dev-panel .control-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+/* =====================================
+   ВКЛАДКИ РАЗРАБОТЧИКА
+   ===================================== */
+
+.dev-tabs {
+    display: flex;
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dev-tab {
+    background: none;
+    border: none;
+    color: #bdc3c7;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+    flex: 1;
+}
+
+.dev-tab:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ecf0f1;
+}
+
+.dev-tab.active {
+    background: rgba(255, 255, 255, 0.1);
+    color: #3498db;
+    border-bottom-color: #3498db;
+}
+
+.dev-content {
+    padding: 0;
+    background: #34495e;
+}
+
+.dev-tab-content {
+    display: none;
+    padding: 25px;
+    animation: fadeIn 0.3s ease;
+}
+
+.dev-tab-content.active {
+    display: block;
+}
+
+/* =====================================
+   РЕДАКТОР СТИЛЕЙ
+   ===================================== */
+
+.style-editor {
+    background: #2c3e50;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.style-editor .form-group {
+    margin-bottom: 20px;
+}
+
+.style-editor label {
+    color: #bdc3c7;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    display: block;
+}
+
+#style-layer-select {
+    background: #34495e;
+    border: 2px solid #4a6741;
+    color: #ecf0f1;
+    padding: 10px 15px;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#style-layer-select:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+#style-layer-select option {
+    background: #34495e;
+    color: #ecf0f1;
+    padding: 10px;
+}
+
+/* Цветовые элементы управления */
+.color-input-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.color-input-group input[type="color"] {
+    width: 50px;
+    height: 40px;
+    border: 2px solid #4a6741;
+    border-radius: 8px;
+    cursor: pointer;
+    background: none;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+.color-input-group input[type="color"]:hover {
+    border-color: #3498db;
+    transform: scale(1.05);
+}
+
+.color-input-group input[type="text"] {
+    flex: 1;
+    background: #34495e;
+    border: 2px solid #4a6741;
+    color: #ecf0f1;
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.color-input-group input[type="text"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+/* Слайдеры */
+.slider-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.slider-group input[type="range"] {
+    flex: 1;
+    height: 8px;
+    border-radius: 4px;
+    background: linear-gradient(to right, #34495e 0%, #3498db 100%);
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.slider-group input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #3498db;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(52, 152, 219, 0.4);
+    transition: all 0.3s ease;
+}
+
+.slider-group input[type="range"]::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.6);
+}
+
+.slider-group input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #3498db;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 3px 8px rgba(52, 152, 219, 0.4);
+}
+
+.slider-value {
+    font-weight: 700;
+    color: #3498db;
+    min-width: 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    background: rgba(52, 152, 219, 0.1);
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(52, 152, 219, 0.3);
+}
+
+/* =====================================
+   ПРЕДПРОСМОТР СТИЛЕЙ
+   ===================================== */
+
+.style-preview {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.preview-label {
+    color: #bdc3c7;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#style-preview-box {
+    width: 100%;
+    height: 60px;
+    border-radius: 6px;
+    border: 2px solid #3498db;
+    background: rgba(52, 152, 219, 0.7);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+#style-preview-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(255, 255, 255, 0.1) 10px,
+        rgba(255, 255, 255, 0.1) 20px
+    );
+    pointer-events: none;
+}
+
+#style-preview-box::after {
+    content: 'Образец';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* =====================================
+   ДЕЙСТВИЯ СТИЛЕЙ
+   ===================================== */
+
+.style-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.style-actions .btn {
+    flex: 1;
+    min-width: 100px;
+    padding: 10px 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+#apply-style {
+    background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+    color: white;
+    box-shadow: 0 4px 12px rgba(46, 204, 113, 0.3);
+}
+
+#apply-style:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(46, 204, 113, 0.4);
+}
+
+#reset-style {
+    background: linear-gradient(135deg, #95a5a6 0%, #bdc3c7 100%);
+    color: #2c3e50;
+}
+
+#reset-style:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #7f8c8d 0%, #95a5a6 100%);
+}
+
+#save-style {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white;
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+#save-style:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(52, 152, 219, 0.4);
+}
+
+/* =====================================
+   МЕНЕДЖЕР ДАННЫХ
+   ===================================== */
+
+.data-manager {
+    background: #2c3e50;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.data-actions,
+.batch-operations {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.data-actions .btn,
+.batch-operations .btn {
+    flex: 1;
+    min-width: 120px;
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#validate-data {
+    background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+    color: white;
+}
+
+#auto-save-toggle {
+    background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+    color: white;
+}
+
+#auto-save-toggle.enabled {
+    background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+}
+
+#show-history {
+    background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+    color: white;
+}
+
+#batch-layer-select {
+    flex: 2;
+    background: #34495e;
+    border: 2px solid #4a6741;
+    color: #ecf0f1;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+#batch-update {
+    flex: 1;
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white;
+}
+
+/* =====================================
+   РЕЗУЛЬТАТЫ ВАЛИДАЦИИ
+   ===================================== */
+
+.validation-results {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.validation-item {
+    padding: 12px 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.2s ease;
+}
+
+.validation-item:last-child {
+    border-bottom: none;
+}
+
+.validation-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.validation-item.error {
+    background: rgba(231, 76, 60, 0.1);
+    border-left: 4px solid #e74c3c;
+}
+
+.validation-item.warning {
+    background: rgba(243, 156, 18, 0.1);
+    border-left: 4px solid #f39c12;
+}
+
+.validation-item.success {
+    background: rgba(46, 204, 113, 0.1);
+    border-left: 4px solid #2ecc71;
+}
+
+.validation-icon {
+    font-size: 1.2rem;
+    width: 20px;
+    text-align: center;
+}
+
+.validation-icon.error {
+    color: #e74c3c;
+}
+
+.validation-icon.warning {
+    color: #f39c12;
+}
+
+.validation-icon.success {
+    color: #2ecc71;
+}
+
+.validation-message {
+    flex: 1;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.validation-count {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ecf0f1;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+/* =====================================
+   ЭКСПОРТ/ИМПОРТ
+   ===================================== */
+
+.export-manager {
+    background: #2c3e50;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.export-actions,
+.import-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.export-actions .btn,
+.import-actions .btn {
+    flex: 1;
+    min-width: 100px;
+    padding: 10px 15px;
+    font-size: 0.8rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+#export-styles {
+    background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+    color: white;
+}
+
+#export-data {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white;
+}
+
+#export-all {
+    background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+    color: white;
+}
+
+#import-styles {
+    background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+    color: white;
+}
+
+#import-data {
+    background: linear-gradient(135deg, #95a5a6 0%, #7f8c8d 100%);
+    color: white;
+}
+
+.git-info {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.git-info code {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    color: #2ecc71;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.8rem;
+    margin: 5px 0;
+    border-left: 3px solid #2ecc71;
+}
+
+/* =====================================
+   ИНДИКАТОРЫ РЕЖИМА РАЗРАБОТКИ
+   ===================================== */
+
+.dev-mode-active {
+    position: relative;
+}
+
+.dev-mode-active::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #e74c3c 0%, #f39c12 50%, #2ecc71 100%);
+    z-index: 10000;
+    animation: devModeIndicator 3s ease-in-out infinite;
+}
+
+@keyframes devModeIndicator {
+    0%, 100% {
+        opacity: 0.7;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.dev-overlay {
+    position: fixed;
+    top: 60px;
+    left: 300px;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 50;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 50px,
+        rgba(231, 76, 60, 0.05) 50px,
+        rgba(231, 76, 60, 0.05) 52px
+    );
+    transition: opacity 0.3s ease;
+}
+
+.dev-overlay.hidden {
+    opacity: 0;
+}
+
+/* =====================================
+   КОНТЕКСТНЫЕ ПОДСКАЗКИ
+   ===================================== */
+
+.dev-tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    z-index: 1000;
+    pointer-events: none;
+    white-space: nowrap;
+    transform: translateY(-100%);
+    margin-top: -10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.dev-tooltip.show {
+    opacity: 1;
+}
+
+.dev-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: rgba(0, 0, 0, 0.9);
+}
+
+/* =====================================
+   ГОРЯЧИЕ КЛАВИШИ
+   ===================================== */
+
+.hotkey-indicator {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+}
+
+.hotkey-indicator.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hotkey {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0 2px;
+}
+
+/* =====================================
+   АДАПТИВНОСТЬ РЕЖИМА РАЗРАБОТКИ
+   ===================================== */
+
+@media (max-width: 1200px) {
+    #dev-panel {
+        width: 350px;
+    }
+    
+    .style-actions,
+    .data-actions,
+    .export-actions {
+        flex-direction: column;
+    }
+    
+    .style-actions .btn,
+    .data-actions .btn,
+    .export-actions .btn {
+        flex: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    #dev-panel {
+        position: fixed;
+        right: 0;
+        top: 60px;
+        height: calc(100% - 60px);
+        z-index: 200;
+        width: 320px;
+    }
+    
+    .dev-overlay {
+        left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    #dev-panel {
+        width: 100%;
+        max-width: 320px;
+    }
+    
+    .dev-tabs {
+        flex-wrap: wrap;
+    }
+    
+    .dev-tab {
+        flex: 1;
+        min-width: 80px;
+        padding: 10px 12px;
+        font-size: 0.8rem;
+    }
+    
+    .dev-tab-content {
+        padding: 15px;
+    }
+    
+    .style-editor,
+    .data-manager,
+    .export-manager {
+        padding: 15px;
+    }
+    
+    .color-input-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .slider-group {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+    
+    .git-info code {
+        font-size: 0.7rem;
+        padding: 6px 8px;
+        word-break: break-all;
+    }
+}
+
+/* =====================================
+   АНИМАЦИИ РЕЖИМА РАЗРАБОТКИ
+   ===================================== */
+
+@keyframes glitch {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-2px);
+    }
+    40% {
+        transform: translateX(2px);
+    }
+    60% {
+        transform: translateX(-1px);
+    }
+    80% {
+        transform: translateX(1px);
+    }
+}
+
+.dev-mode-active .dev-tab.active {
+    animation: glitch 2s ease-in-out infinite;
+}
+
+.code-highlight {
+    background: linear-gradient(45deg, #2ecc71, #27ae60);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85em;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.drag-handle {
+    cursor: move;
+    color: #bdc3c7;
+    padding: 5px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.drag-handle:hover {
+    color: #3498db;
+    background: rgba(52, 152, 219, 0.1);
+}
+
+.drag-handle:active {
+    transform: scale(1.1);
+    color: #2980b9;
+}

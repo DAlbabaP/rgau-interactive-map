@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "name": "main_building",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r9464126",
+        "osm_id": "9464126",
+        "osm_type": "relation",
+        "osm_version": "35",
+        "osm_timestamp": "2023-09-17T00:03:31Z",
+        "osm_uid": "461130",
+        "osm_user": "Fizzie-DWG",
+        "osm_changeset": "141362331",
+        "building": "government",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "main_building",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "is_main_building": false,
+        "university_name": null,
+        "rector_office": false,
+        "administration_levels": [],
+        "faculties": [],
+        "central_services": [],
+        "lecture_halls": null,
+        "seminar_rooms": null,
+        "computer_rooms": null,
+        "conference_halls": null,
+        "museum_halls": null,
+        "has_cafeteria": false,
+        "has_library": false,
+        "has_computer_lab": false,
+        "has_wifi": false,
+        "has_medical": false,
+        "has_parking": false,
+        "has_museum": false,
+        "has_observation_deck": false,
+        "phone": null,
+        "email": null,
+        "website": null,
+        "working_hours": null,
+        "visitor_hours": null,
+        "architectural_style": null,
+        "height_meters": null,
+        "heritage_status": null,
+        "landmark": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5498853,
+                55.8327067
+              ],
+              [
+                37.5498523,
+                55.8326997
+              ],
+              [
+                37.5498024,
+                55.8327736
+              ],
+              [
+                37.549874,
+                55.8327889
+              ],
+              [
+                37.549809,
+                55.8328851
+              ],
+              [
+                37.5497328,
+                55.8328689
+              ],
+              [
+                37.5496111,
+                55.8330492
+              ],
+              [
+                37.5497143,
+                55.8330712
+              ],
+              [
+                37.5496501,
+                55.8331662
+              ],
+              [
+                37.5495557,
+                55.8331461
+              ],
+              [
+                37.5495074,
+                55.8332177
+              ],
+              [
+                37.5496021,
+                55.8332378
+              ],
+              [
+                37.5499526,
+                55.8333128
+              ],
+              [
+                37.5499975,
+                55.8332452
+              ],
+              [
+                37.549932,
+                55.8332315
+              ],
+              [
+                37.5499794,
+                55.8331607
+              ],
+              [
+                37.5500274,
+                55.8330882
+              ],
+              [
+                37.5500993,
+                55.8331032
+              ],
+              [
+                37.5501605,
+                55.8330113
+              ],
+              [
+                37.5501059,
+                55.8329998
+              ],
+              [
+                37.5501482,
+                55.8329363
+              ],
+              [
+                37.5501904,
+                55.8328729
+              ],
+              [
+                37.5502496,
+                55.8328853
+              ],
+              [
+                37.5502651,
+                55.8328621
+              ],
+              [
+                37.5503093,
+                55.8327957
+              ],
+              [
+                37.5502718,
+                55.8327878
+              ],
+              [
+                37.5498853,
+                55.8327067
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

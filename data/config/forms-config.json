@@ -1,0 +1,403 @@
+{
+  "version": "1.0.0",
+  "description": "Конфигурация специализированных форм для объектов карты",
+  "validation": {
+    "enabled": true,
+    "realtime": true,
+    "showErrors": true,
+    "requiredFieldsValidation": true
+  },
+  "autoSave": {
+    "enabled": true,
+    "interval": 30000,
+    "showIndicator": true
+  },
+  "fieldTypes": {
+    "text": {
+      "component": "input",
+      "type": "text",
+      "validation": ["required", "minLength", "maxLength"]
+    },
+    "email": {
+      "component": "input", 
+      "type": "email",
+      "validation": ["email", "required"]
+    },
+    "phone": {
+      "component": "input",
+      "type": "tel",
+      "validation": ["phone", "required"]
+    },
+    "url": {
+      "component": "input",
+      "type": "url", 
+      "validation": ["url"]
+    },
+    "number": {
+      "component": "input",
+      "type": "number",
+      "validation": ["number", "min", "max"]
+    },
+    "textarea": {
+      "component": "textarea",
+      "rows": 4,
+      "validation": ["maxLength"]
+    },
+    "select": {
+      "component": "select",
+      "validation": ["required"]
+    },
+    "multi-select": {
+      "component": "multiSelect",
+      "validation": ["minItems", "maxItems"]
+    },
+    "checkbox": {
+      "component": "checkbox",
+      "validation": []
+    },
+    "array": {
+      "component": "arrayField",
+      "validation": ["minItems", "maxItems"]
+    },
+    "currency": {
+      "component": "input",
+      "type": "number",
+      "min": 0,
+      "step": 0.01,
+      "validation": ["number", "min"]
+    },
+    "date": {
+      "component": "input",
+      "type": "date",
+      "validation": ["date"]
+    },
+    "time": {
+      "component": "input", 
+      "type": "time",
+      "validation": ["time"]
+    }
+  },
+  "templates": {
+    "university_buildings": {
+      "title": "Учебное здание",
+      "icon": "school",
+      "description": "Форма для редактирования учебных зданий университета",
+      "sections": [
+        {
+          "id": "basic_info",
+          "title": "Основная информация",
+          "icon": "info-circle",
+          "collapsed": false,
+          "fields": [
+            {
+              "name": "name",
+              "label": "Название здания",
+              "type": "text",
+              "required": true,
+              "placeholder": "Введите название здания"
+            },
+            {
+              "name": "building_number", 
+              "label": "Номер здания",
+              "type": "text",
+              "placeholder": "Например: 1, А, 2К"
+            },
+            {
+              "name": "address",
+              "label": "Адрес",
+              "type": "text",
+              "required": true,
+              "placeholder": "Полный адрес здания"
+            },
+            {
+              "name": "floors",
+              "label": "Количество этажей",
+              "type": "number",
+              "min": 1,
+              "max": 50
+            },
+            {
+              "name": "year_built",
+              "label": "Год постройки",
+              "type": "number",
+              "min": 1800,
+              "max": 2030
+            }
+          ]
+        },
+        {
+          "id": "academic_info",
+          "title": "Академическая информация", 
+          "icon": "graduation-cap",
+          "collapsed": false,
+          "fields": [
+            {
+              "name": "faculties",
+              "label": "Факультеты",
+              "type": "multi-select",
+              "options": [
+                {"value": "physics", "label": "Физический"},
+                {"value": "chemistry", "label": "Химический"},
+                {"value": "biology", "label": "Биологический"},
+                {"value": "mathematics", "label": "Механико-математический"},
+                {"value": "geology", "label": "Геологический"},
+                {"value": "geography", "label": "Географический"}
+              ]
+            },
+            {
+              "name": "departments",
+              "label": "Кафедры",
+              "type": "array",
+              "placeholder": "Добавьте кафедры"
+            },
+            {
+              "name": "lecture_halls",
+              "label": "Лекционные залы",
+              "type": "number",
+              "min": 0
+            },
+            {
+              "name": "computer_rooms",
+              "label": "Компьютерные классы",
+              "type": "number",
+              "min": 0
+            }
+          ]
+        },
+        {
+          "id": "services",
+          "title": "Услуги и удобства",
+          "icon": "concierge-bell",
+          "collapsed": true,
+          "fields": [
+            {
+              "name": "has_cafeteria",
+              "label": "Столовая/буфет",
+              "type": "checkbox"
+            },
+            {
+              "name": "has_library",
+              "label": "Библиотека",
+              "type": "checkbox"
+            },
+            {
+              "name": "has_wifi",
+              "label": "Wi-Fi",
+              "type": "checkbox"
+            },
+            {
+              "name": "has_parking",
+              "label": "Парковка",
+              "type": "checkbox"
+            }
+          ]
+        },
+        {
+          "id": "contacts",
+          "title": "Контактная информация",
+          "icon": "address-book", 
+          "collapsed": true,
+          "fields": [
+            {
+              "name": "phone",
+              "label": "Телефон",
+              "type": "phone",
+              "placeholder": "+7 (495) 123-45-67"
+            },
+            {
+              "name": "email",
+              "label": "Email",
+              "type": "email",
+              "placeholder": "example@university.edu"
+            },
+            {
+              "name": "website",
+              "label": "Веб-сайт",
+              "type": "url",
+              "placeholder": "https://example.com"
+            },
+            {
+              "name": "working_hours",
+              "label": "Часы работы",
+              "type": "text",
+              "placeholder": "Пн-Пт: 08:00-20:00"
+            }
+          ]
+        }
+      ]
+    },
+    "dormitory_buildings": {
+      "title": "Общежитие",
+      "icon": "home",
+      "description": "Форма для редактирования общежитий",
+      "sections": [
+        {
+          "id": "basic_info",
+          "title": "Основная информация",
+          "icon": "info-circle",
+          "collapsed": false,
+          "fields": [
+            {
+              "name": "name",
+              "label": "Название общежития",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "dormitory_number",
+              "label": "Номер общежития",
+              "type": "text"
+            },
+            {
+              "name": "address",
+              "label": "Адрес",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "floors",
+              "label": "Количество этажей",
+              "type": "number",
+              "min": 1
+            }
+          ]
+        },
+        {
+          "id": "accommodation",
+          "title": "Размещение",
+          "icon": "bed",
+          "collapsed": false,
+          "fields": [
+            {
+              "name": "total_places",
+              "label": "Общее количество мест",
+              "type": "number",
+              "min": 1,
+              "required": true
+            },
+            {
+              "name": "available_places",
+              "label": "Свободные места",
+              "type": "number",
+              "min": 0
+            },
+            {
+              "name": "cost_per_month",
+              "label": "Стоимость в месяц (руб.)",
+              "type": "currency"
+            }
+          ]
+        }
+      ]
+    },
+    "lab_buildings": {
+      "title": "Лаборатория",
+      "icon": "flask",
+      "description": "Форма для редактирования лабораторных зданий",
+      "sections": [
+        {
+          "id": "basic_info",
+          "title": "Основная информация",
+          "icon": "info-circle",
+          "collapsed": false,
+          "fields": [
+            {
+              "name": "name",
+              "label": "Название лаборатории",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "specialization",
+              "label": "Специализация",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "safety_level",
+              "label": "Уровень безопасности",
+              "type": "select",
+              "options": [
+                {"value": "low", "label": "Низкий"},
+                {"value": "medium", "label": "Средний"},
+                {"value": "high", "label": "Высокий"},
+                {"value": "critical", "label": "Критический"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equipment",
+          "title": "Оборудование",
+          "icon": "cogs",
+          "collapsed": false,
+          "fields": [
+            {
+              "name": "equipment_list",
+              "label": "Список оборудования",
+              "type": "array"
+            },
+            {
+              "name": "equipment_cost",
+              "label": "Стоимость оборудования (руб.)",
+              "type": "currency"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "validationRules": {
+    "required": {
+      "message": "Это поле обязательно для заполнения"
+    },
+    "email": {
+      "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+      "message": "Введите корректный email адрес"
+    },
+    "phone": {
+      "pattern": "^[\\+]?[1-9][\\d]{0,15}$",
+      "message": "Введите корректный номер телефона"
+    },
+    "url": {
+      "pattern": "^https?:\\/\\/.+",
+      "message": "Введите корректный URL (начинающийся с http:// или https://)"
+    },
+    "minLength": {
+      "message": "Минимальная длина: {min} символов"
+    },
+    "maxLength": {
+      "message": "Максимальная длина: {max} символов"
+    },
+    "min": {
+      "message": "Минимальное значение: {min}"
+    },
+    "max": {
+      "message": "Максимальное значение: {max}"
+    },
+    "number": {
+      "message": "Введите числовое значение"
+    },
+    "date": {
+      "message": "Введите корректную дату"
+    },
+    "time": {
+      "message": "Введите корректное время"
+    }
+  },
+  "ui": {
+    "theme": "default",
+    "showFieldIcons": true,
+    "showValidationIcons": true,
+    "animateTransitions": true,
+    "compactMode": false,
+    "showTooltips": true
+  },
+  "defaults": {
+    "currency": "RUB",
+    "dateFormat": "DD.MM.YYYY",
+    "timeFormat": "HH:mm",
+    "language": "ru",
+    "timezone": "Europe/Moscow"
+  }
+}

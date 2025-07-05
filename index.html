@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивная карта университета</title>
+    
+    <!-- OpenLayers CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ol3/6.15.1/ol.css">
+    
+    <!-- Собственные стили -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/panels.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/dev-mode.css">
+    
+    <!-- Font Awesome для иконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Верхняя панель навигации -->
+        <header id="top-navbar">
+            <div class="navbar-left">
+                <h1><i class="fas fa-university"></i> Карта Университета</h1>
+            </div>
+            
+            <div class="navbar-center">
+                <div id="search-container">
+                    <div class="search-wrapper">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" id="global-search" placeholder="Поиск зданий, адресов, объектов...">
+                        <div id="search-suggestions" class="search-suggestions"></div>
+                    </div>
+                    <div id="search-filters">
+                        <button class="filter-btn active" data-filter="all">Все</button>
+                        <button class="filter-btn" data-filter="university">Университет</button>
+                        <button class="filter-btn" data-filter="transport">Транспорт</button>
+                        <button class="filter-btn" data-filter="public">Общественные</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="navbar-right">
+                <button id="fullscreen-btn" class="nav-btn" title="Полноэкранный режим">
+                    <i class="fas fa-expand"></i>
+                </button>
+                <button id="dev-mode-toggle" class="nav-btn" title="Режим разработки">
+                    <i class="fas fa-code"></i>
+                    <span id="mode-indicator">Просмотр</span>
+                </button>
+                <button id="help-btn" class="nav-btn" title="Справка">
+                    <i class="fas fa-question-circle"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Основной контент -->
+        <main id="main-content">
+            <!-- Левая панель категорий -->
+            <aside id="category-panel" class="side-panel left-panel">
+                <div class="panel-header">
+                    <h3><i class="fas fa-layer-group"></i> Категории объектов</h3>
+                    <div class="panel-controls">
+                        <button id="toggle-all-layers" class="control-btn" title="Выключить все слои">
+                            <i class="fas fa-eye-slash"></i>
+                        </button>
+                        <button id="collapse-all" class="control-btn" title="Свернуть все">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="panel-content">
+                    <div class="category-tree">
+                        <!-- Университетские здания -->
+                        <div class="category-group">
+                            <div class="category-header" data-category="university">
+                                <i class="fas fa-chevron-down toggle-icon"></i>
+                                <i class="fas fa-graduation-cap category-icon"></i>
+                                <span>Университетские здания</span>
+                                <span class="object-count">0</span>
+                            </div>
+                            <div class="category-items">
+                                <div class="layer-item" data-layer="main_building">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-building"></i>
+                                    <span>Главное здание</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                                <div class="layer-item" data-layer="university_buildings">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-school"></i>
+                                    <span>Учебные здания</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                                <div class="layer-item" data-layer="dormitory_buildings">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-home"></i>
+                                    <span>Общежития</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                                <div class="layer-item" data-layer="lab_buildings">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-flask"></i>
+                                    <span>Лаборатории</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                                <div class="layer-item" data-layer="library_buildings">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-book"></i>
+                                    <span>Библиотеки</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                                <div class="layer-item" data-layer="sport_buildings">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-dumbbell"></i>
+                                    <span>Спортивные объекты</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                                <div class="layer-item" data-layer="buildings_in_university">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-building-columns"></i>
+                                    <span>Дополнительные здания</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Общественные здания -->
+                        <div class="category-group">
+                            <div class="category-header" data-category="public">
+                                <i class="fas fa-chevron-down toggle-icon"></i>
+                                <i class="fas fa-city category-icon"></i>
+                                <span>Общественные здания</span>
+                                <span class="object-count">0</span>
+                            </div>
+                            <div class="category-items">
+                                <div class="layer-item" data-layer="museum_buildings">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-landmark"></i>
+                                    <span>Музеи</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                                <div class="layer-item" data-layer="cafe_buildings">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-coffee"></i>
+                                    <span>Кафе и рестораны</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                                <div class="layer-item" data-layer="gov_buildings">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-university"></i>
+                                    <span>Правительственные</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Транспорт -->
+                        <div class="category-group">
+                            <div class="category-header" data-category="transport">
+                                <i class="fas fa-chevron-down toggle-icon"></i>
+                                <i class="fas fa-bus category-icon"></i>
+                                <span>Транспорт</span>
+                                <span class="object-count">0</span>
+                            </div>
+                            <div class="category-items">
+                                <div class="layer-item" data-layer="metro_stations">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-subway"></i>
+                                    <span>Станции метро</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                                <div class="layer-item" data-layer="metro_entrance">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-door-open"></i>
+                                    <span>Входы в метро</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                                <div class="layer-item" data-layer="metro_platforms">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-train"></i>
+                                    <span>Платформы метро</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                                <div class="layer-item" data-layer="tram_stops">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-tram"></i>
+                                    <span>Трамвайные остановки</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                                <div class="layer-item" data-layer="bus_stops">
+                                    <label class="layer-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                    <i class="fas fa-bus"></i>
+                                    <span>Автобусные остановки</span>
+                                    <span class="layer-count">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Карта -->
+            <section id="map-container">
+                <div id="map" class="map-view"></div>
+                
+                <!-- Элементы управления картой -->
+                <div id="map-controls">
+                    <button id="reset-view" class="map-control-btn" title="Сбросить вид">
+                        <i class="fas fa-home"></i>
+                    </button>
+                    <button id="locate-user" class="map-control-btn" title="Моё местоположение">
+                        <i class="fas fa-location-arrow"></i>
+                    </button>
+                </div>
+
+                <!-- Индикатор загрузки -->
+                <div id="loading-indicator" class="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <span>Загрузка карты...</span>
+                </div>
+            </section>
+
+            <!-- Правая панель разработчика -->
+            <aside id="dev-panel" class="side-panel right-panel dev-panel">
+                <div class="panel-header">
+                    <h3><i class="fas fa-tools"></i> Панель разработчика</h3>
+                    <button id="close-dev-panel" class="control-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="panel-content">
+                    <div class="dev-tabs">
+                        <button class="dev-tab active" data-tab="styles">Стили</button>
+                        <button class="dev-tab" data-tab="data">Данные</button>
+                        <button class="dev-tab" data-tab="export">Экспорт</button>
+                    </div>
+                    
+                    <div class="dev-content">
+                        <!-- Вкладка стилей -->
+                        <div id="styles-tab" class="dev-tab-content active">
+                            <div class="form-group">
+                                <label>Тип объектов:</label>
+                                <select id="style-layer-select">
+                                    <option value="">Выберите слой...</option>
+                                </select>
+                            </div>
+                            
+                            <div class="style-editor">
+                                <div class="form-group">
+                                    <label>Цвет заливки:</label>
+                                    <div class="color-input-group">
+                                        <input type="color" id="fill-color" value="#3498db">
+                                        <input type="text" id="fill-color-hex" value="#3498db" pattern="^#[0-9A-F]{6}$">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>Прозрачность заливки:</label>
+                                    <div class="slider-group">
+                                        <input type="range" id="fill-opacity" min="0" max="100" value="70">
+                                        <span class="slider-value">70%</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>Цвет обводки:</label>
+                                    <div class="color-input-group">
+                                        <input type="color" id="stroke-color" value="#2980b9">
+                                        <input type="text" id="stroke-color-hex" value="#2980b9" pattern="^#[0-9A-F]{6}$">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>Толщина обводки:</label>
+                                    <div class="slider-group">
+                                        <input type="range" id="stroke-width" min="1" max="10" value="2">
+                                        <span class="slider-value">2px</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="style-preview">
+                                    <div class="preview-label">Предпросмотр:</div>
+                                    <div id="style-preview-box"></div>
+                                </div>
+                                
+                                <div class="style-actions">
+                                    <button id="apply-style" class="btn btn-primary">Применить</button>
+                                    <button id="reset-style" class="btn btn-secondary">Сбросить</button>
+                                    <button id="save-style" class="btn btn-success">Сохранить</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Вкладка данных -->
+                        <div id="data-tab" class="dev-tab-content">
+                            <div class="data-manager">
+                                <div class="form-group">
+                                    <label>Управление данными:</label>
+                                    <div class="data-actions">
+                                        <button id="validate-data" class="btn btn-info">Валидировать данные</button>
+                                        <button id="auto-save-toggle" class="btn btn-warning">Автосохранение: ВКЛ</button>
+                                        <button id="show-history" class="btn btn-secondary">История изменений</button>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>Массовые операции:</label>
+                                    <div class="batch-operations">
+                                        <select id="batch-layer-select">
+                                            <option value="">Выберите слой...</option>
+                                        </select>
+                                        <button id="batch-update" class="btn btn-primary">Массовое обновление</button>
+                                    </div>
+                                </div>
+                                
+                                <div id="validation-results" class="validation-results"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Вкладка экспорта -->
+                        <div id="export-tab" class="dev-tab-content">
+                            <div class="export-manager">
+                                <div class="form-group">
+                                    <label>Экспорт конфигураций:</label>
+                                    <div class="export-actions">
+                                        <button id="export-styles" class="btn btn-success">Экспорт стилей</button>
+                                        <button id="export-data" class="btn btn-info">Экспорт данных</button>
+                                        <button id="export-all" class="btn btn-primary">Экспорт всего</button>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>Импорт настроек:</label>
+                                    <div class="import-actions">
+                                        <input type="file" id="import-file" accept=".json" style="display: none;">
+                                        <button id="import-styles" class="btn btn-warning">Импорт стилей</button>
+                                        <button id="import-data" class="btn btn-secondary">Импорт данных</button>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>Git интеграция:</label>
+                                    <div class="git-info">
+                                        <code>git add data/config/global-styles.json</code><br>
+                                        <code>git commit -m "Update map styles"</code><br>
+                                        <code>git push origin main</code>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Информационная панель -->
+            <aside id="info-panel" class="side-panel right-panel info-panel">
+                <div class="panel-header">
+                    <h3 id="info-panel-title"><i class="fas fa-info-circle"></i> Информация об объекте</h3>
+                    <button id="close-info-panel" class="control-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="panel-content">
+                    <div id="info-content">
+                        <div class="no-selection">
+                            <i class="fas fa-mouse-pointer"></i>
+                            <p>Кликните на объект на карте, чтобы увидеть информацию</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="panel-footer">
+                    <div class="info-actions">
+                        <button id="edit-object" class="btn btn-primary" style="display: none;">
+                            <i class="fas fa-edit"></i> Редактировать
+                        </button>
+                        <button id="save-changes" class="btn btn-success" style="display: none;">
+                            <i class="fas fa-save"></i> Сохранить
+                        </button>
+                        <button id="cancel-edit" class="btn btn-secondary" style="display: none;">
+                            <i class="fas fa-times"></i> Отменить
+                        </button>
+                        <button id="delete-object" class="btn btn-danger" style="display: none;">
+                            <i class="fas fa-trash"></i> Удалить
+                        </button>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <!-- Модальные окна -->
+    <div id="help-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Справка по использованию</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h4>Основные функции:</h4>
+                <ul>
+                    <li><strong>Поиск:</strong> Используйте строку поиска для поиска зданий и объектов</li>
+                    <li><strong>Слои:</strong> Включайте/выключайте отображение различных типов объектов</li>
+                    <li><strong>Информация:</strong> Кликните на объект для просмотра детальной информации</li>
+                    <li><strong>Режим разработки:</strong> Для редактирования стилей и данных</li>
+                </ul>
+                
+                <h4>Управление картой:</h4>
+                <ul>
+                    <li><strong>Перемещение:</strong> Зажмите левую кнопку мыши и перетаскивайте</li>
+                    <li><strong>Масштабирование:</strong> Колесо мыши или кнопки +/-</li>
+                    <li><strong>Сброс вида:</strong> Кнопка "Домик" для возврата к начальному виду</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- OpenLayers JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ol3/6.15.1/ol.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ol@latest/dist/ol.js"></script>
+    
+    <!-- Собственные JavaScript модули -->
+    <script src="js/utils.js"></script>
+    <script src="js/search-module.js"></script>
+    <script src="js/layer-manager.js"></script>
+    <script src="js/category-panel.js"></script>
+    <script src="js/data-forms.js"></script>
+    <script src="js/style-editor.js"></script>
+    <script src="js/info-panel.js"></script>
+    <script src="js/dev-mode.js"></script>
+    <script src="js/map-controller.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

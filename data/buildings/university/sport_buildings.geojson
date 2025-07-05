@@ -1,0 +1,462 @@
+{
+  "type": "FeatureCollection",
+  "name": "sport_buildings",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "r1822358",
+        "osm_id": "1822358",
+        "osm_type": "relation",
+        "osm_version": "46",
+        "osm_timestamp": "2023-09-17T22:42:45Z",
+        "osm_uid": "149719",
+        "osm_user": "Bloodmage",
+        "osm_changeset": "141400332",
+        "building": "sport",
+        "building:levels": "3",
+        "name": null,
+        "title": null,
+        "type": "sports_complex",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "facility_type": null,
+        "sports_available": [],
+        "facilities": [],
+        "pools": {},
+        "gym_halls": null,
+        "tennis_courts": null,
+        "fitness_areas": null,
+        "capacity": null,
+        "lockers": null,
+        "equipment_rental": false,
+        "services": [],
+        "has_cafeteria": false,
+        "has_medical": false,
+        "has_wifi": false,
+        "has_parking": false,
+        "has_equipment_rental": false,
+        "has_changing_rooms": false,
+        "phone": null,
+        "email": null,
+        "website": null,
+        "working_hours": null,
+        "pool_hours": null,
+        "membership_required": false,
+        "student_discount": false,
+        "day_pass_available": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5656378,
+                55.8338801
+              ],
+              [
+                37.5650136,
+                55.833755
+              ],
+              [
+                37.56482,
+                55.834063
+              ],
+              [
+                37.5646248,
+                55.8343669
+              ],
+              [
+                37.565249,
+                55.834492
+              ],
+              [
+                37.5656378,
+                55.8338801
+              ]
+            ],
+            [
+              [
+                37.5652056,
+                55.8342319
+              ],
+              [
+                37.5649667,
+                55.834184
+              ],
+              [
+                37.5650647,
+                55.8340298
+              ],
+              [
+                37.5653036,
+                55.8340777
+              ],
+              [
+                37.5652056,
+                55.8342319
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791297",
+        "osm_id": "32791297",
+        "osm_type": "way",
+        "osm_version": "4",
+        "osm_timestamp": "2020-08-22T08:05:00",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "89773302",
+        "building": "sport",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "sports_complex",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "facility_type": null,
+        "sports_available": [],
+        "facilities": [],
+        "pools": {},
+        "gym_halls": null,
+        "tennis_courts": null,
+        "fitness_areas": null,
+        "capacity": null,
+        "lockers": null,
+        "equipment_rental": false,
+        "services": [],
+        "has_cafeteria": false,
+        "has_medical": false,
+        "has_wifi": false,
+        "has_parking": false,
+        "has_equipment_rental": false,
+        "has_changing_rooms": false,
+        "phone": null,
+        "email": null,
+        "website": null,
+        "working_hours": null,
+        "pool_hours": null,
+        "membership_required": false,
+        "student_discount": false,
+        "day_pass_available": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5646197,
+                55.83325
+              ],
+              [
+                37.565158,
+                55.8333544
+              ],
+              [
+                37.5656734,
+                55.8325168
+              ],
+              [
+                37.5651352,
+                55.8324123
+              ],
+              [
+                37.5646197,
+                55.83325
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791390",
+        "osm_id": "32791390",
+        "osm_type": "way",
+        "osm_version": "2",
+        "osm_timestamp": "2011-10-31T08:02:11",
+        "osm_uid": "481934",
+        "osm_user": "",
+        "osm_changeset": "9700483",
+        "building": "sports_hall",
+        "building:levels": null,
+        "mulipoligon_id": 4,
+        "name": null,
+        "title": null,
+        "type": "sports_complex",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "facility_type": null,
+        "sports_available": [],
+        "facilities": [],
+        "pools": {},
+        "gym_halls": null,
+        "tennis_courts": null,
+        "fitness_areas": null,
+        "capacity": null,
+        "lockers": null,
+        "equipment_rental": false,
+        "services": [],
+        "has_cafeteria": false,
+        "has_medical": false,
+        "has_wifi": false,
+        "has_parking": false,
+        "has_equipment_rental": false,
+        "has_changing_rooms": false,
+        "phone": null,
+        "email": null,
+        "website": null,
+        "working_hours": null,
+        "pool_hours": null,
+        "membership_required": false,
+        "student_discount": false,
+        "day_pass_available": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5601029,
+                55.8336202
+              ],
+              [
+                37.5606707,
+                55.8337282
+              ],
+              [
+                37.5606986,
+                55.833682
+              ],
+              [
+                37.5608614,
+                55.833412
+              ],
+              [
+                37.5603487,
+                55.8333145
+              ],
+              [
+                37.5602936,
+                55.833304
+              ],
+              [
+                37.5601029,
+                55.8336202
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w135385981",
+        "osm_id": "135385981",
+        "osm_type": "way",
+        "osm_version": "1",
+        "osm_timestamp": "2011-10-31T08:02:05",
+        "osm_uid": "481934",
+        "osm_user": "",
+        "osm_changeset": "9700483",
+        "building": "sports_hall",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "sports_complex",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "facility_type": null,
+        "sports_available": [],
+        "facilities": [],
+        "pools": {},
+        "gym_halls": null,
+        "tennis_courts": null,
+        "fitness_areas": null,
+        "capacity": null,
+        "lockers": null,
+        "equipment_rental": false,
+        "services": [],
+        "has_cafeteria": false,
+        "has_medical": false,
+        "has_wifi": false,
+        "has_parking": false,
+        "has_equipment_rental": false,
+        "has_changing_rooms": false,
+        "phone": null,
+        "email": null,
+        "website": null,
+        "working_hours": null,
+        "pool_hours": null,
+        "membership_required": false,
+        "student_discount": false,
+        "day_pass_available": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5638504,
+                55.8334837
+              ],
+              [
+                37.5636174,
+                55.8334541
+              ],
+              [
+                37.5634687,
+                55.8338238
+              ],
+              [
+                37.5637014,
+                55.8338533
+              ],
+              [
+                37.563725,
+                55.8337947
+              ],
+              [
+                37.5636884,
+                55.83379
+              ],
+              [
+                37.5637737,
+                55.8335778
+              ],
+              [
+                37.5638107,
+                55.8335825
+              ],
+              [
+                37.5638504,
+                55.8334837
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w135385989",
+        "osm_id": "135385989",
+        "osm_type": "way",
+        "osm_version": "2",
+        "osm_timestamp": "2012-04-10T12:20:27",
+        "osm_uid": "481934",
+        "osm_user": "",
+        "osm_changeset": "11251271",
+        "building": "sports_hall",
+        "building:levels": "1",
+        "mulipoligon_id": 4,
+        "name": null,
+        "title": null,
+        "type": "sports_complex",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "facility_type": null,
+        "sports_available": [],
+        "facilities": [],
+        "pools": {},
+        "gym_halls": null,
+        "tennis_courts": null,
+        "fitness_areas": null,
+        "capacity": null,
+        "lockers": null,
+        "equipment_rental": false,
+        "services": [],
+        "has_cafeteria": false,
+        "has_medical": false,
+        "has_wifi": false,
+        "has_parking": false,
+        "has_equipment_rental": false,
+        "has_changing_rooms": false,
+        "phone": null,
+        "email": null,
+        "website": null,
+        "working_hours": null,
+        "pool_hours": null,
+        "membership_required": false,
+        "student_discount": false,
+        "day_pass_available": false,
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5603487,
+                55.8333145
+              ],
+              [
+                37.5608614,
+                55.833412
+              ],
+              [
+                37.5606986,
+                55.833682
+              ],
+              [
+                37.560772,
+                55.8336959
+              ],
+              [
+                37.5609776,
+                55.833355
+              ],
+              [
+                37.5603915,
+                55.8332436
+              ],
+              [
+                37.5603487,
+                55.8333145
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

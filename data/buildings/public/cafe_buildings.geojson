@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "name": "cafe_buildings",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": "w32791718",
+        "osm_id": "32791718",
+        "osm_type": "way",
+        "osm_version": "5",
+        "osm_timestamp": "2020-09-01T16:56:08",
+        "osm_uid": "10129333",
+        "osm_user": "",
+        "osm_changeset": "90256748",
+        "building": "canteen",
+        "building:levels": null,
+        "name": null,
+        "title": null,
+        "type": "cafeteria",
+        "building_number": null,
+        "address": null,
+        "floors": null,
+        "year_built": null,
+        "description": null,
+        "establishment_type": null,
+        "cuisine_type": null,
+        "service_type": null,
+        "capacity": null,
+        "dining_halls": null,
+        "private_rooms": null,
+        "outdoor_seating": false,
+        "meal_types": [],
+        "special_diets": [],
+        "menu_categories": [],
+        "services": [],
+        "facilities": [],
+        "has_wifi": false,
+        "has_takeaway": false,
+        "has_delivery": false,
+        "accepts_cards": false,
+        "student_discounts": false,
+        "phone": null,
+        "email": null,
+        "working_hours": null,
+        "breakfast_hours": null,
+        "lunch_hours": null,
+        "dinner_hours": null,
+        "average_check": null,
+        "payment_methods": [],
+        "last_updated": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                37.5535463,
+                55.831386
+              ],
+              [
+                37.5530685,
+                55.831969
+              ],
+              [
+                37.5539565,
+                55.8321985
+              ],
+              [
+                37.5543631,
+                55.8317025
+              ],
+              [
+                37.5537353,
+                55.8315402
+              ],
+              [
+                37.5538065,
+                55.8314533
+              ],
+              [
+                37.5536526,
+                55.8314135
+              ],
+              [
+                37.5535463,
+                55.831386
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
